@@ -11,16 +11,19 @@ freeze: auto
 
 website:
   title: "Sandstone Sonnets"
-  favicon: "files/favicon.png"
+  # favicon: "files/favicon.png"
   site-url: "https://thomascwells.com/sandstonesonnets/"
   repo-url: "https://github.com/thomascwells/sandstonesonnets"
   repo-actions: [edit, issue]
   navbar:
     pinned: false
-    logo: "files/favicon_light.png"
+    # logo: "files/favicon_light.png"
     left:
       - href: index.qmd
         text: Home
+    right:
+      - icon: rss
+        href: index.xml
       
 format:
   html:
