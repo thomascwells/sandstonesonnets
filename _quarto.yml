@@ -1,0 +1,37 @@
+project:
+  type: website
+
+  render:
+    - "*.qmd"
+
+  resources: 
+    - "files/**"
+
+freeze: auto
+
+website:
+  title: "Sandstone Sonnets"
+  favicon: "files/favicon.png"
+  site-url: "https://www.sandstonesonnets.com"
+  repo-url: "https://github.com/thomascwells/sandstonesonnets"
+  repo-actions: [edit, issue]
+  navbar:
+    pinned: false
+    logo: "files/favicon_light.png"
+    left:
+      - href: index.qmd
+        text: Home
+      
+format:
+  html:
+    theme: 
+      - lux
+      # - html/styles.scss
+#    grid: 
+#      body-width: 900px
+    toc: false
+#    highlight-style: monokai
+
+  
+  
+  
