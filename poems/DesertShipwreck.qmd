@@ -1,6 +1,6 @@
 ---
 title: "The Desert Shipwreck"
-description: "When the Canyon Held the Sea"
+description: "When the canyon held the sea"
 author: "Rudy"
 date: "2025-09-16"
 # date-modified: "2025-09-16"
@@ -22,7 +22,7 @@ A sandstone hull upon the plain.
 
 The whale looks proud, a trickster bold,  
 A million years of tales retold.  
-While desert winds still sing the song:
+While desert winds still sing the song:  
 The whale’s been laughing all along.  
 
 So if you stroll these rugged lands,  
