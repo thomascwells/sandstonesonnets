@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Jupyter and IRkernel (Jupyter for R)
         run: |
-          pip install jupyter
+          pip install jupyter ipyleaflet
           Rscript -e 'install.packages("IRkernel", repos="https://cloud.r-project.org")'
           Rscript -e 'IRkernel::installspec()'
 
