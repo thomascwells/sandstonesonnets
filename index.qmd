@@ -5,7 +5,7 @@ listing:
   sort-ui: true
   filter-ui: true
   type: default
-  categories: cloud
+  categories: unnumbered
   feed: true
 ---
 
@@ -15,7 +15,9 @@ On this page you'll find poems written about natural features in and around Frui
 
 ## Trailhead filters
 
+- [All](https://sandstonesonnets.com)
+- [Devil's Canyon](https://sandstonesonnets.com/#category=devil's%20canyon)
 - [Flume Canyon](https://sandstonesonnets.com/#category=flume%20canyon)
--
+
 
 ## Poems
