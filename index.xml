@@ -200,8 +200,7 @@ The canyon’s smiling after all!</p>
 <div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
 <p>INSERT IMAGE</p>
 <p>library(leaflet)</p>
-<p>lat &lt;- 39.156517 long &lt;- -108.710908</p>
-<p>leaflet() |&gt; addTiles() |&gt; setView(lng = long, lat = lat, zoom = 10)`</p>
+<p>leaflet() %&gt;% addTiles() %&gt;% # Add default OpenStreetMap map tiles addMarkers(lng = -108.710908, lat = 39.156517, popup = “Photo location”)</p>
 </div>
 </div>
 </div>
