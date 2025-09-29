@@ -1,6 +1,6 @@
 ---
 title: "Patina Portrait"
-description: "Can you find the faceless portrait in the varnish?"
+description: "Can you find the varnish's faceless portrait?"
 author: "Rudy"
 date: "2025-09-28"
 # date-modified: "2025-09-28"
