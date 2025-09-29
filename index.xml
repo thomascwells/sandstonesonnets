@@ -199,75 +199,9 @@ The canyon’s smiling after all!</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
 <p>INSERT IMAGE</p>
-<div id="cb2ad132" class="cell" data-execution_count="1">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> ipyleaflet <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> Map, basemaps, basemap_to_tiles</span>
-<span id="cb1-2"></span>
-<span id="cb1-3">lat <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">39.156517</span></span>
-<span id="cb1-4"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">long</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">108.710908</span></span>
-<span id="cb1-5"></span>
-<span id="cb1-6"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"title="</span>, <span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">f"Photo location: </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">39.156517</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">, </span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">{</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">108.710908</span><span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">}</span><span class="ss" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"</span>)</span>
-<span id="cb1-7"></span>
-<span id="cb1-8">Map(basemap<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>basemap_to_tiles(basemaps.OpenStreetMap.Mapnik),</span>
-<span id="cb1-9">    center<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>(lat, <span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">long</span>), zoom<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>)</span></code></pre></div></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>title= Photo location: 39.156517, -108.710908</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="1">
-<script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"2507f6be26ad40b5b483ae411487ce55","version_major":2,"version_minor":0,"quarto_mimetype":"application/vnd.jupyter.widget-view+json"}
-</script>
-</div>
-</div>
+<p>library(leaflet)</p>
+<p>lat &lt;- 39.156517 long &lt;- -108.710908</p>
+<p>leaflet() |&gt; addTiles() |&gt; setView(lng = long, lat = lat, zoom = 10)`</p>
 </div>
 </div>
 </div>
