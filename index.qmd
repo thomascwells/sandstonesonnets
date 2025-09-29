@@ -2,6 +2,8 @@
 listing:
   contents: poems
   sort: "date desc"
+  sort-ui: true
+  filter-ui: true
   type: default
   categories: true
   feed: true
@@ -10,5 +12,10 @@ listing:
 ## What is this?
 
 On this page you'll find poems written about natural features in and around Fruita. These are a bit like a scavenger hunt - see if you can figure out what features these poems describe. 
+
+## Trailhead filters
+
+- [Flume Canyon](https://sandstonesonnets.com/#category=flume%20canyon)
+-
 
 ## Poems
