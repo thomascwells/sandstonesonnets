@@ -9,7 +9,7 @@
 <link>https://thomascwells.com/sandstonesonnets/</link>
 <atom:link href="https://thomascwells.com/sandstonesonnets/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.8.24</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Sun, 28 Sep 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Patina Portrait</title>
@@ -199,8 +199,7 @@ The canyon’s smiling after all!</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
 <p>INSERT IMAGE</p>
-<p>library(leaflet)</p>
-<p>leaflet() %&gt;% addTiles() %&gt;% # Add default OpenStreetMap map tiles addMarkers(lng = -108.710908, lat = 39.156517, popup = “Photo location”)</p>
+<p>GPS coordinates of this photo: 39.156517, -108.710908</p>
 </div>
 </div>
 </div>
