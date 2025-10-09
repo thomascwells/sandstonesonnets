@@ -11,6 +11,7 @@ freeze: auto
 
 website:
   title: "Sandstone Sonnets"
+  image-height: 0px
   # favicon: "files/favicon.png"
   site-url: "https://thomascwells.com/sandstonesonnets/"
   repo-url: "https://github.com/thomascwells/sandstonesonnets"
