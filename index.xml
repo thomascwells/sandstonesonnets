@@ -142,7 +142,7 @@ A million-year-old happy face,<br>
 That makes D4 such a lovely place!</p>
 <p>So if you’re walking Fruita’s trails<br>
 And need a laugh when courage fails,<br>
-Just look up at that crimson wall—<br>
+Just look up at that crimson wall,<br>
 The canyon’s smiling after all!</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Hints</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Answer</a></li></ul>
@@ -177,7 +177,12 @@ The canyon’s smiling after all!</p>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>This feature is located on the loop section of D4.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_map_hint.png" class="img-fluid figure-img"></p>
+<figcaption>This feature is located in the loop section of the D4 trail. It can be found somewhere in the area highlighted in purple above.</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </div>
@@ -193,7 +198,7 @@ The canyon’s smiling after all!</p>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/canyons_grin.jpg" class="img-blur img-fluid"></p>
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_answer.jpg" class="img-blur img-fluid"></p>
 </div>
 </div>
 </div>
@@ -207,14 +212,14 @@ The canyon’s smiling after all!</p>
 <div class="callout-body-container">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/canyons_grin_annotated.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_answer_annotated.jpg" class="img-fluid figure-img"></p>
 <figcaption>Smile!</figcaption>
 </figure>
 </div>
 <p>GPS coordinates of this photo: 39.133733, -108.772557</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.133733&amp;mlon=-108.772557&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/map_smile.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.133733&amp;mlon=-108.772557&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_map.png" class="img-fluid figure-img"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
