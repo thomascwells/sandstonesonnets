@@ -55,7 +55,7 @@ Somewhere on the F1 trail, you can look across Inner Flume and see a creature tu
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Here's a blurry version of the location you're looking for. See anything that looks like this?](images/f1_guardian_answer.jpg){.img-blur}
+![Here's a blurred version of the location you're looking for. See anything that looks like this?](images/f1_guardian_answer.jpg){.img-blur2}
 
 
 :::
