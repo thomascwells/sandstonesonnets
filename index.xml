@@ -72,8 +72,93 @@ Its roar scares only the dust away.</p>
 And stumble on this creature’s place,<br>
 Just wave and laugh, don’t be afraid —<br>
 The canyon’s myths are all homemade!</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Hints</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Answer</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p><em>Click to expand the sections below.</em></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #1: Help…what am I looking for?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Somewhere on the F1 trail, you can look across Inner Flume and see a creature tucked into the canyon wall.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #2: In what general area should I look?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.141395%2C-108.785441%3B39.142959%2C-108.784003#map=16/39.14547/-108.78106&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_guardian_map_hint.png" class="img-fluid figure-img"></a></p>
+<figcaption>This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #3: Ok, I need a photo hint please.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_guardian_answer.jpg" class="img-blur img-fluid"></p>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_guardian_answer_annotated.jpg" class="img-fluid figure-img"></p>
+<figcaption>Smile!</figcaption>
+</figure>
+</div>
+<p>GPS coordinates of this photo: 39.142294, -108.784531</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.openstreetmap.org/?mlat=39.142294&amp;mlon=-108.784531&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_guardian_map.png" class="img-fluid figure-img"></a></p>
+<figcaption>Click for interactive map</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 
 
+</div>
+</div>
+</div>
 
  ]]></description>
   <category>fruita</category>
@@ -177,12 +262,7 @@ The canyon’s smiling after all!</p>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_map_hint.png" class="img-fluid figure-img"></p>
-<figcaption>This feature is located in the loop section of the D4 trail. It can be found somewhere in the area highlighted in purple above.</figcaption>
-</figure>
-</div>
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_map_hint.png" class="img-fluid" alt="This feature is located in the loop section of the D4 trail. It can be found somewhere in the area highlighted in purple above.Click for an interactive map.">](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&amp;layers=P)</p>
 </div>
 </div>
 </div>
