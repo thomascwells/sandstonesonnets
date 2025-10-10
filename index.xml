@@ -193,19 +193,7 @@ The canyon’s smiling after all!</p>
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-
-
-<style>
-        img-blur {
-            -webkit-filter: blur(2px);
-            filter: blur(2px);
-        }
-    </style>
-
-
-<left> <img-blur> <img src="https://thomascwells.com/sandstonesonnets/poems/images/canyons_grin.jpg" width="300px" height="175px" alt="filter applied"> </img-blur> </left>
-
-
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/canyons_grin.jpg" class="img-blur img-fluid"></p>
 </div>
 </div>
 </div>
