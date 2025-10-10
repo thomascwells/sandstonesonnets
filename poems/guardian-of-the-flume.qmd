@@ -31,3 +31,42 @@ So if you roam above the Flume’s embrace,
 And stumble on this creature’s place,  
 Just wave and laugh, don’t be afraid —  
 The canyon’s myths are all homemade!
+
+
+
+::: {.panel-tabset}
+
+## Hints
+*Click to expand the sections below.*  
+
+::: {.callout-tip collapse="true"}
+## Hint #1: Help...what am I looking for?
+
+Somewhere on the F1 trail, you can look across Inner Flume and see a creature tucked into the canyon wall.
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #2: In what general area should I look?
+
+[![This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/f1_guardian_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.141395%2C-108.785441%3B39.142959%2C-108.784003#map=16/39.14547/-108.78106&layers=P)
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #3: Ok, I need a photo hint please.
+
+![](images/f1_guardian_answer.jpg){.img-blur}
+
+
+:::
+
+## Answer
+
+::: {.callout-tip appearance="minimal" collapse="false"}
+![Smile!](images/f1_guardian_answer_annotated.jpg)
+
+GPS coordinates of this photo: 39.142294, -108.784531  
+
+[![Click for interactive map](images/f1_guardian_map.png)](https://www.openstreetmap.org/?mlat=39.142294&mlon=-108.784531&zoom=19)
+
+:::
