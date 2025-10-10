@@ -63,7 +63,7 @@ Somewhere on the F1 trail, you can look across Inner Flume and see a creature tu
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-![Smile!](images/f1_guardian_answer_annotated.jpg)
+![](images/f1_guardian_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.142294, -108.784531  
 
