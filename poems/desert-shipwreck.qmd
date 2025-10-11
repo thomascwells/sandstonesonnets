@@ -2,8 +2,8 @@
 title: "The Desert Shipwreck"
 description: "When the canyon held the sea"
 author: "Rudy"
-date: "2025-09-16"
-# date-modified: "2025-09-16"
+date: "2025-09-28"
+# date-modified: "2025-09-28"
 draft: false
 categories:
   - fruita
@@ -40,13 +40,13 @@ A whale sunk that ship right here!
 ::: {.callout-tip collapse="true"}
 ## Hint #1: Help...what am I looking for?
 
-Can you find two large rocks, one that looks like a whale breaching out of the water and another that looks like a beached ship?
+Can you find two large rocks, one that looks like a whale breaching out of the water and another that looks like a sinking ship?
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![NEED TO UPDATE. This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/f1_guardian_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.141395%2C-108.785441%3B39.142959%2C-108.784003#map=16/39.14547/-108.78106&layers=P)
+[![This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/f1_shipwreck_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.141395%2C-108.785441%3B39.142959%2C-108.784003#map=16/39.14547/-108.78106&layers=P)
 
 :::
 
@@ -62,8 +62,8 @@ Can you find two large rocks, one that looks like a whale breaching out of the w
 ::: {.callout-tip appearance="minimal" collapse="false"}
 ![](images/f1_shipwreck_answer_annotated.jpg)
 
-GPS coordinates of this photo: NEED TO UPDATE 39.142294, -108.784531  
+GPS coordinates of this photo: NEED TO CONFIRM 39.151625, -108.781861  
 
-[![NEED TO UPDATE Click for interactive map](images/f1_guardian_map.png)](https://www.openstreetmap.org/?mlat=39.142294&mlon=-108.784531&zoom=19)
+[![Click for interactive map](images/f1_shipwreck_map.png)](https://www.openstreetmap.org/?mlat=39.151625&mlon=-108.781861&zoom=19)
 
 :::

@@ -2,8 +2,8 @@
 title: "Patina Portrait"
 description: "Can you find the varnish's faceless portrait?"
 author: "Rudy"
-date: "2025-09-28"
-# date-modified: "2025-09-28"
+date: "2025-09-16"
+# date-modified: "2025-09-16"
 draft: false
 categories:
   - fruita
@@ -63,8 +63,8 @@ Somewhere on the F1 trail, there is varnish on the sandstone that looks a little
 ::: {.callout-tip appearance="minimal" collapse="false"}
 ![](images/f1_portrait_answer_annotated.jpg)
 
-GPS coordinates of this photo: NEED TO UPDATE 39.142294, -108.784531  
+GPS coordinates of this photo: 39.148763, -108.781902  
 
-[![Click for interactive map](images/f1_portrait_map.png)](https://www.openstreetmap.org/?mlat=39.142294&mlon=-108.784531&zoom=19)
+[![Click for interactive map](images/f1_portrait_map.png)](https://www.openstreetmap.org/?mlat=39.148763&mlon=-108.781902&zoom=19)
 
 :::
