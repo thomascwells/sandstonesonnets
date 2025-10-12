@@ -11,19 +11,21 @@ freeze: auto
 
 website:
   title: "Sandstone Sonnets"
-  # favicon: "files/favicon.png"
+  # favicon: "/poems/images/logo_circle.svg"
   site-url: "https://thomascwells.com/sandstonesonnets/"
   repo-url: "https://github.com/thomascwells/sandstonesonnets"
   repo-actions: [edit, issue]
   navbar:
     pinned: false
-    # logo: "files/favicon_light.png"
+    # logo: "/poems/images/logo_circle.svg"
     left:
       - href: index.qmd
         text: Home
     right:
       - icon: rss
         href: index.xml
+  margin-header: |
+    ![](/poems/images/logo_circle.svg)
       
 format:
   html:
