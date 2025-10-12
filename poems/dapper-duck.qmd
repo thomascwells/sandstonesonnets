@@ -26,3 +26,39 @@ The Colorado winds may blow,
 But duckie's hat won't ever go.  
 While other ducks must swim and fly,  
 This one just winks at passers-by.  
+
+::: {.panel-tabset}
+
+## Hints
+*Click to expand the sections below.*  
+
+::: {.callout-tip collapse="true"}
+## Hint #1: Help...what am I looking for?
+
+Somewhere on the D4 trail, you'll find a rock shaped like a duck wearing a hat.
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #2: In what general area should I look?
+
+[![This feature is located in the loop section of the D4 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/d4_duck_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&layers=P)
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #3: Ok, I need a photo hint please.
+
+![NEED PHOTO](images/d4_grin_answer.jpg){.img-blur3}
+
+:::
+
+## Answer
+
+::: {.callout-tip appearance="minimal" collapse="false"}
+![**PLACEHOLDER. NEED PHOTO.**](images/d4_grin_answer_annotated.jpg)
+
+GPS coordinates of this photo: **NEED COORDINATES** 39.133733, -108.772557  
+
+[![Click for interactive map](images/d4_grin_map.png)](https://www.openstreetmap.org/?mlat=39.133733&mlon=-108.772557&zoom=19)
+
+:::

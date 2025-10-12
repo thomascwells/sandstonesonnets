@@ -15,7 +15,7 @@ categories:
 Perched in the desert, proud and absurd,  
 A sandstone cliff — an Angry Bird.  
 Its beak juts sharp, its brow is stern,  
-As if awaiting its turn to burn.  
+As if it's awaiting its turn to burn.  
 
 The wind plays slingshot, the clouds take aim,  
 But this rock just chuckles, immune to the game.  
@@ -23,11 +23,47 @@ Forever frozen in feathery guise,
 A grumpy guardian under bluebird skies.  
 
 Lizards parade by its scowling face,  
-Whispering tales of its lofty place.  
+Whispering tales of this lofty place.  
 Tourists snap photos, delighted to find,  
 A relic of pixels in stone redefined.  
 
 And when twilight paints the canyon red,  
-The Angry Bird will live on in your head —  
+The Angry Bird will live on in your head.  
 A game once played on a glowing screen,  
 Now etched by time in a desert scene.  
+
+::: {.panel-tabset}
+
+## Hints
+*Click to expand the sections below.*  
+
+::: {.callout-tip collapse="true"}
+## Hint #1: Help...what am I looking for?
+
+Somewhere on the D4 trail, you'll find a rock that looks like a bird from the angry birds video game.  
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #2: In what general area should I look?
+
+[![This feature is located in the loop section of the D4 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/d4_fury_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&layers=P)
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #3: Ok, I need a photo hint please.
+
+![NEED PHOTO](images/d4_grin_answer.jpg){.img-blur3}
+
+:::
+
+## Answer
+
+::: {.callout-tip appearance="minimal" collapse="false"}
+![PLACEHOLDER. NEED PHOTO.**O](images/d4_grin_answer_annotated.jpg)
+
+GPS coordinates of this photo: **NEED COORDINATES** 39.133733, -108.772557  
+
+[![Click for interactive map](images/d4_grin_map.png)](https://www.openstreetmap.org/?mlat=39.133733&mlon=-108.772557&zoom=19)
+
+:::
