@@ -28,7 +28,7 @@ website:
 format:
   html:
     theme: 
-      - lux
+      - lumen
       # - html/styles.scss
 #    grid: 
 #      body-width: 900px

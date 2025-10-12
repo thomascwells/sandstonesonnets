@@ -40,7 +40,7 @@ A whale sunk that ship right here!
 ::: {.callout-tip collapse="true"}
 ## Hint #1: Help...what am I looking for?
 
-Can you find two large rocks, one that looks like a whale breaching out of the water and another that looks like a sinking ship?
+You are searching for two large rocks. One of them looks like a whale breaching out of the water. Behind it, you'll find another rock that looks like a sinking ship.
 :::
 
 ::: {.callout-tip collapse="true"}
