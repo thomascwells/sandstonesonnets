@@ -521,8 +521,98 @@ Makes tourists stop in pure suspense.<br>
 But duckie’s hat won’t ever go.<br>
 While other ducks must swim and fly,<br>
 This one just winks at passers-by.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Hints</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Answer</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p><em>Click to expand the sections below.</em></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #1: Help…what am I looking for?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Somewhere on the D4 trail, you’ll find a rock shaped like a duck wearing a hat.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #2: In what general area should I look?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_duck_map_hint.png" class="img-fluid figure-img"></a></p>
+<figcaption>This feature is located in the loop section of the D4 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #3: Ok, I need a photo hint please.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_answer.jpg" class="img-blur3 img-fluid figure-img"></p>
+<figcaption>NEED PHOTO</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_answer_annotated.jpg" class="img-fluid figure-img"></p>
+<figcaption><strong>PLACEHOLDER. NEED PHOTO.</strong></figcaption>
+</figure>
+</div>
+<p>GPS coordinates of this photo: <strong>NEED COORDINATES</strong> 39.133733, -108.772557</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.openstreetmap.org/?mlat=39.133733&amp;mlon=-108.772557&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_map.png" class="img-fluid figure-img"></a></p>
+<figcaption>Click for interactive map</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 
 
+</div>
+</div>
+</div>
 
  ]]></description>
   <category>fruita</category>
@@ -544,21 +634,111 @@ This one just winks at passers-by.</p>
 <p>Perched in the desert, proud and absurd,<br>
 A sandstone cliff — an Angry Bird.<br>
 Its beak juts sharp, its brow is stern,<br>
-As if awaiting its turn to burn.</p>
+As if it’s awaiting its turn to burn.</p>
 <p>The wind plays slingshot, the clouds take aim,<br>
 But this rock just chuckles, immune to the game.<br>
 Forever frozen in feathery guise,<br>
 A grumpy guardian under bluebird skies.</p>
 <p>Lizards parade by its scowling face,<br>
-Whispering tales of its lofty place.<br>
+Whispering tales of this lofty place.<br>
 Tourists snap photos, delighted to find,<br>
 A relic of pixels in stone redefined.</p>
 <p>And when twilight paints the canyon red,<br>
-The Angry Bird will live on in your head —<br>
+The Angry Bird will live on in your head.<br>
 A game once played on a glowing screen,<br>
 Now etched by time in a desert scene.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true" href="">Hints</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false" href="">Answer</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p><em>Click to expand the sections below.</em></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #1: Help…what am I looking for?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Somewhere on the D4 trail, you’ll find a rock that looks like a bird from the angry birds video game.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #2: In what general area should I look?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_fury_map_hint.png" class="img-fluid figure-img"></a></p>
+<figcaption>This feature is located in the loop section of the D4 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Hint #3: Ok, I need a photo hint please.
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_answer.jpg" class="img-blur3 img-fluid figure-img"></p>
+<figcaption>NEED PHOTO</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_answer_annotated.jpg" class="img-fluid figure-img"></p>
+<figcaption>PLACEHOLDER. NEED PHOTO.**O</figcaption>
+</figure>
+</div>
+<p>GPS coordinates of this photo: <strong>NEED COORDINATES</strong> 39.133733, -108.772557</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.openstreetmap.org/?mlat=39.133733&amp;mlon=-108.772557&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_map.png" class="img-fluid figure-img"></a></p>
+<figcaption>Click for interactive map</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 
 
+</div>
+</div>
+</div>
 
  ]]></description>
   <category>fruita</category>
