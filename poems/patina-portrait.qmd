@@ -53,7 +53,7 @@ Somewhere on the F1 trail, there is varnish on the sandstone that looks a little
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-[![Can you find anything that looks like this?](images/f1_portrait_answer.jpg)](images/f1_portrait_answer.jpg)
+![Can you find anything that looks like this?](images/f1_portrait_answer.jpg)
 
 
 :::

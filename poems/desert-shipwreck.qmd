@@ -53,7 +53,7 @@ You are searching for two large rocks. One of them looks like a whale breaching 
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-[![Here's a blurred version of the location you're looking for. See anything that looks like this?](images/f1_shipwreck_answer.jpg){.img-blur3}](images/f1_shipwreck_answer.jpg){.img-blur3}
+![Here's a blurred version of the location you're looking for. See anything that looks like this?](images/f1_shipwreck_answer.jpg){.img-blur3}
 
 :::
 
