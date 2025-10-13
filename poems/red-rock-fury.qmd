@@ -1,5 +1,6 @@
 ---
 title: "Red Rock Fury"
+subtitle: "D4 #3"
 description: "Rage against the rock"
 author: "Rudy"
 date: "2025-09-14"

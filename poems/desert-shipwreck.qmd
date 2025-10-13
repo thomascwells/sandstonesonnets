@@ -1,5 +1,6 @@
 ---
-title: "The Desert Shipwreck (F1 #1)"
+title: "The Desert Shipwreck"
+subtitle: "F1 #1"
 description: "When the canyon held the sea"
 author: "Rudy"
 date: "2025-09-28"

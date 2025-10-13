@@ -1,5 +1,6 @@
 ---
 title: "The Dapper Duck of Fruita"
+subtitle: "D4 #1"
 description: "What's that - a hat?"
 author: "Rudy"
 date: "2025-09-14"
