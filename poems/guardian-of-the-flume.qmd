@@ -1,5 +1,5 @@
 ---
-title: "Guardian of the Flume"
+title: "Guardian of the Flume (3)"
 description: "Inner Flume's friendly beast"
 author: "Rudy"
 date: "2025-09-20"

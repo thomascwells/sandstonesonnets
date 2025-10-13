@@ -1,5 +1,5 @@
 ---
-title: "The Desert Shipwreck"
+title: "The Desert Shipwreck (1)"
 description: "When the canyon held the sea"
 author: "Rudy"
 date: "2025-09-28"
