@@ -21,6 +21,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: faq.qmd
+        text: FAQ
     right:
       - icon: rss
         href: index.xml

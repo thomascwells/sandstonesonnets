@@ -12,12 +12,14 @@ listing:
 
 ## What is this?
 
-On this page you'll find poems written about natural features in and around Fruita. These are a bit like a scavenger hunt - see if you can figure out what features these poems describe. 
+On this page you'll find poems written about natural features in and around Fruita, Colorado. These are a bit like a scavenger hunt - see if you can figure out what features these poems describe. 
 
 ## Trailhead filters
 
-- [All](https://sandstonesonnets.com)
-- [Devil's Canyon](https://sandstonesonnets.com/#category=devil's%20canyon)
-- [Flume Canyon](https://sandstonesonnets.com/#category=flume%20canyon)
+- [All](/)
+- [Devil's Canyon](/#category=devil's%20canyon)
+  - [D4](/#category=D4)
+- [Flume Canyon](/#category=flume%20canyon)
+  - [F1](/#category=F1)
 
 ## Poems
