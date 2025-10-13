@@ -15,6 +15,7 @@ website:
   site-url: "https://thomascwells.com/sandstonesonnets/"
   repo-url: "https://github.com/thomascwells/sandstonesonnets"
   repo-actions: [edit, issue]
+  bread-crumbs: true
   navbar:
     pinned: false
     logo: "/poems/images/logo_circle.svg"
@@ -23,6 +24,15 @@ website:
         text: Home
       - href: faq.qmd
         text: FAQ
+      # - text: group1
+      #   menu:
+      #   - text: About the Author
+      #     href: https://thomascwells.com
+      #   - text: About the Photographer
+      #     href: https://angieshields.com
+      #   - text: Source Code
+      #     href: https://github.com/thomascwells/sandstonesonnets
+      # - text: group 2
     right:
       - icon: rss
         href: index.xml
