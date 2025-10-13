@@ -55,7 +55,7 @@ Somewhere on the F1 trail, you can look across Inner Flume and see a creature tu
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Here's a blurred version of the location you're looking for. See anything that looks like this?](images/f1_guardian_answer.jpg){.img-blur2}
+[![Here's a blurred version of the location you're looking for. See anything that looks like this?](images/f1_guardian_answer.jpg){.img-blur2}](images/f1_guardian_answer.jpg){.img-blur2}
 
 
 :::
@@ -63,7 +63,7 @@ Somewhere on the F1 trail, you can look across Inner Flume and see a creature tu
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-![](images/f1_guardian_answer_annotated.jpg)
+[![](images/f1_guardian_answer_annotated.jpg)](images/f1_guardian_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.142294, -108.784531  
 
