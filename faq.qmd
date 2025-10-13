@@ -12,11 +12,7 @@ Features on out-and-back trails are numbered sequentially, in the order they are
 
 Each poem will give you clues about what shape to look for in the rocks. If you're stuck, there are hints at the bottom of the page under each poem. Clicking the hint will expand it.
 
-Once you think you've found the rock formation described in the poem, click the "Answer" tab. It will show you a picture of the formation and a map showing the location where the picture was taken.
-
-### I hate to tell you this, but these aren't sonnets.
-
-I hate to tell you this, but that isn't a question. Nonetheless, your point is a good one -- these aren't sonnets. We liked the alliteration of Sandstone Sonnets more than we liked actual sonnets.
+Once you think you've found the rock formation described in the poem, click the "Answer" tab. It will show you a picture of the formation and a map showing the location where the picture was taken. GPS coordinates are included in the answer section to help you find the exact location.
 
 ### I think the rocks look like something different. How can I let you know?
 
@@ -24,4 +20,12 @@ I hate to tell you this, but that isn't a question. Nonetheless, your point is a
 
 ### Can I submit a poem to Sandstone Sonnets?
 
-For sure! [Send us an email!](mailto:mail@sandstonesonnets.com?subject=Poem%20Submission&body=I%20would%20like%20to%20submit%20the%20following%20poem%20for%20consideration:%0A%0A%5Binsert%20poem%20text%20here%5D) Please include the trailhead and trail section you are writing about, as well as any hints you think would be helpful. We reserve the right to edit submissions for clarity, but you'll be credited for your poem.
+For sure! [Send us an email.](mailto:mail@sandstonesonnets.com?subject=Poem%20Submission&body=I%20would%20like%20to%20submit%20the%20following%20poem%20for%20consideration:%0A%0A%5Binsert%20poem%20text%20here%5D) Please include the trailhead and trail section you are writing about, as well as any hints you think would be helpful. We reserve the right to edit submissions for clarity, but you'll be credited for your poem.
+
+### I don't want to write a poem, but I know a cool place you should write one about. Can I submit that?
+
+Of course! [Send it over!](mailto:mail@sandstonesonnets.com?subject=Poem%20Suggestion&body=I%20have%20a%20great%20idea%20for%20a%20poem%20about%20%5Binsert%20location%20here%5D.) We love hearing about new places to explore.
+
+### I hate to tell you this, but these aren't sonnets.
+
+I hate to tell you this, but that isn't a question. Nonetheless, your point is a good one -- these aren't sonnets. We liked the alliteration of Sandstone Sonnets more than we liked actual sonnets.
