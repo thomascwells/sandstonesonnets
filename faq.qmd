@@ -12,7 +12,7 @@ Features on out-and-back trails are numbered sequentially, in the order they are
 
 Each poem will give you clues about what shape to look for in the rocks. If you're stuck, there are hints at the bottom of the page under each poem. Clicking the hint will expand it.
 
-Once you think you've found the rock formation described in the poem, click the "Answer" tab. It will show you a picture of the formation and a map showing the location where the picture was taken. GPS coordinates are included in the answer section to help you find the exact location.
+Once you think you've found the rock formation described in the poem, click the "Answer" tab. It will show you a picture of the formation and a map showing the location where the picture was taken. GPS coordinates of the photo are included in the answer section to help you find the exact location.
 
 ### Why are you writing these poems?
 
@@ -32,4 +32,4 @@ Of course, [send it over!](mailto:mail@sandstonesonnets.com?subject=Poem%20Sugge
 
 ### I hate to tell you this, but these aren't sonnets.
 
-I hate to tell you this, but that isn't a question. Nonetheless, your point is a good one -- these aren't sonnets. We liked the alliteration of Sandstone Sonnets more than we liked actual sonnets.
+I hate to tell you this, but that isn't a question. Nonetheless, your point is a good one -- these aren't sonnets. It turns out we liked the alliteration of Sandstone Sonnets more than we liked actual sonnets.
