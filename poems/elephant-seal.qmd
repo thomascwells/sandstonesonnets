@@ -1,7 +1,7 @@
 ---
 title: "The Elephant Seal"
 subtitle: "Monument Canyon #1"
-description: "Hope that elephant seal already had lunch!"
+description: "Does that seal look hungry to you?"
 author: "Rudy"
 date: "2025-10-19"
 # date-modified: "2025-10-19"
@@ -48,8 +48,7 @@ You'll find a rock next to the trail that looks like the profile of an elephant 
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-You'll find this rock formation along the Monument Canyon trail. 
-[![This feature can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/monument_seal_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=17/39.100442/-108.707367&layers=P)
+You'll find this rock formation along the Monument Canyon trail. [![This feature can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/monument_seal_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=17/39.100442/-108.707367&layers=P)
 
 :::
 
