@@ -16,7 +16,7 @@ Welcome! We're so glad you're here.
 
 On this page you'll find poems written about natural features in and around Fruita, Colorado. These are a bit like a scavenger hunt - see if you can figure out what features these poems describe.  
 
-Time to pack your imagination and get out on the trails! 
+Time to pack your imagination and hit the trails! 
 
 ## Trailhead filters
 
@@ -25,5 +25,7 @@ Time to pack your imagination and get out on the trails!
   - [D4](/#category=D4)
 - [Flume Canyon](/#category=flume%20canyon)
   - [F1](/#category=F1)
+- [Colorado National Monument](/#category=national%20monument)
+  - [Monument Canyon](/#category=monument%20canyon)
 
 ## Poems
