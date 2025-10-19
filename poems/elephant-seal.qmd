@@ -1,0 +1,71 @@
+---
+title: "The Elephant Seal"
+subtitle: "Monument Canyon #1"
+description: "Hope that elephant seal already had lunch!"
+author: "Rudy"
+date: "2025-10-19"
+# date-modified: "2025-10-19"
+draft: false
+categories:
+  - fruita
+  - poems
+  - monument canyon
+---
+
+Beside the trail of Monument fame,  
+A curious rock earns its name.  
+An elephant seal of sandstone hue,  
+With mouth agape...did I hear “Achoo?”  
+
+Maybe it's mid-yawn, or maybe mid-story,  
+Sharing epics of former glory.  
+Or maybe, I have a hunch,  
+That it's sizing up a hiker’s lunch.  
+
+Some say it’s telling tales,  
+Of ancient seas and fossil whales.  
+Others swear they’ve heard it snore,  
+When twilight hums and shadows pour.  
+
+So if you pass by and hear a sound,  
+A gravel groan from rocky ground,  
+Just tip your hat and keep your stride,  
+In case that seal has an appetite!  
+
+::: {.panel-tabset}
+
+## Hints
+*Click to expand the sections below.*  
+
+::: {.callout-tip collapse="true"}
+## Hint #1: Help...what am I looking for?
+
+You'll find a rock next to the trail that looks like the profile of an elephant seal with its mouth wide open.
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #2: In what general area should I look?
+
+You'll find this rock formation along the Monument Canyon trail. 
+[![This feature can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/monument_seal_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=17/39.100442/-108.707367&layers=P)
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #3: Ok, I need a photo hint please.
+
+![Can you find an area that looks like this? For the best angle, walk just past the rock and then turn around to look back at it.](images/monument_seal_answer.jpg)
+
+:::
+
+## Answer
+
+::: {.callout-tip appearance="minimal" collapse="false"}
+[![](images/monument_seal_answer_annotated.jpg)](images/monument_seal_answer_annotated.jpg)
+
+GPS coordinates of this photo: 39.10077, -108.70906
+
+[![Click for interactive map](images/monument_seal_map.png)](https://www.openstreetmap.org/?mlat=39.10077&mlon=-108.70906&zoom=19)
+
+:::
