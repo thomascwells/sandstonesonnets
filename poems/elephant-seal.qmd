@@ -66,6 +66,6 @@ You'll find a rock next to the trail that looks like the profile of an elephant 
 
 GPS coordinates of this photo: 39.10077, -108.70906
 
-[![Click for interactive map](images/monument_seal_map.png)](https://www.openstreetmap.org/?mlat=39.10077&mlon=-108.70906&zoom=18)
+[![Click for interactive map](images/monument_seal_map.png)](https://www.openstreetmap.org/?mlat=39.10077&mlon=-108.70906&zoom=19)
 
 :::
