@@ -22,7 +22,7 @@
 
 <p>Beside the trail of Monument fame,<br>
 A curious rock earns its name.<br>
-Large snout, mouth open wide<br>
+Large snout, mouth open wide,<br>
 Yikes, an elephant seal - should I try to hide?</p>
 <p>Maybe it’s mid-yawn, or maybe mid-story,<br>
 Sharing epics of former glory.<br>
@@ -69,7 +69,12 @@ In case that seal has an appetite!</p>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>You’ll find this rock formation along the Monument Canyon trail. <a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=17/39.100442/-108.707367&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/monument_seal_map_hint.png" class="img-fluid" alt="This feature can be found somewhere in the area highlighted in purple above. Click for an interactive map."></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=17/39.100442/-108.707367&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/monument_seal_map_hint.png" class="img-fluid figure-img"></a></p>
+<figcaption>You’ll find this rock formation along the Monument Canyon trail. It is located somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
+</figure>
+</div>
 </div>
 </div>
 </div>
