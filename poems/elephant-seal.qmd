@@ -62,7 +62,7 @@ You'll find a rock next to the trail that looks like the profile of an elephant 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/monument_seal_answer_annotated.jpg)](images/monument_seal_answer_annotated.jpg)
+[![](images/monument_seal_answer_annotated2.jpg)](images/monument_seal_answer_annotated2.jpg)
 
 GPS coordinates of this photo: 39.10077, -108.70906
 
