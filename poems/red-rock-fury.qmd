@@ -54,7 +54,7 @@ Somewhere on the D4 trail, you'll find a rock that looks like a bird from the an
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Do you see the bird?](images/d4_fury_answer.jpg){.img-blur2upda}
+![Do you see the bird?](images/d4_fury_answer.jpg){.img-blur2}
 
 :::
 
