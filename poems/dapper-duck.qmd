@@ -56,7 +56,7 @@ Somewhere on the D4 trail, you'll find a rock shaped like a duck wearing a hat.
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-![](images/d4_duck_answer_annotated.jpg)
+[![](images/d4_duck_answer_annotated.jpg)](images/d4_duck_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.13370, -108.76602  
 
