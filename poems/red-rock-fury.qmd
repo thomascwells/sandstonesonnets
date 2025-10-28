@@ -54,17 +54,17 @@ Somewhere on the D4 trail, you'll find a rock that looks like a bird from the an
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![NEED PHOTO](images/d4_grin_answer.jpg){.img-blur3}
+![Do you see the bird?](images/d4_fury_answer.jpg){.img-blur3}
 
 :::
 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-![PLACEHOLDER. NEED PHOTO.**O](images/d4_grin_answer_annotated.jpg)
+![](images/d4_fury_answer_annotated.jpg)
 
-GPS coordinates of this photo: **NEED COORDINATES** 39.133733, -108.772557  
+GPS coordinates of this photo: 39.13653, -108.76928  
 
-[![Click for interactive map](images/d4_grin_map.png)](https://www.openstreetmap.org/?mlat=39.133733&mlon=-108.772557&zoom=19)
+[![Click for interactive map](images/d4_fury_map.png)](https://www.openstreetmap.org/?mlat=39.13653&mlon=-108.76928&zoom=19)
 
 :::
