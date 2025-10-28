@@ -49,7 +49,7 @@ Somewhere on the D4 trail, you'll find a rock shaped like a duck wearing a hat.
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![](images/d4_duck_hint.jpg){.img-blur3}
+![Can you find this area?](images/d4_duck_hint.jpg){.img-blur3}
 
 :::
 
