@@ -42,7 +42,7 @@ Somewhere on the D4 trail, you'll find a rock shaped like a duck wearing a hat.
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/d4_duck_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&layers=P)
+[![This feature can be found somewhere on the section of trail highlighted in purple above. Click for an interactive map.](images/d4_duck_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&layers=P)
 
 :::
 
