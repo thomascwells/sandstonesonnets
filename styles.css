@@ -8,11 +8,11 @@
 .navbar-title {
   /*
   The font size will be:
-  - no smaller than 1rem (minimum size)
-  - no larger than 1.7rem (maximum size)
+  - no smaller than 0.7rem (minimum size)
+  - no larger than 1.5rem (maximum size)
   - will scale dynamically at 4% of the viewport width (preferred size)
   */
-  font-size: clamp(1rem, 4vw, 1.7rem);
+  font-size: clamp(0.7rem, 4vw, 1.5rem);
 }
 
 .img-blur3 {
