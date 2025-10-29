@@ -31,9 +31,9 @@ website:
       #   - text: Source Code
       #     href: https://github.com/thomascwells/sandstonesonnets
       # - text: group 2
-    right:
-      - icon: rss
-        href: index.xml
+    # right:
+    #   - icon: rss
+    #     href: index.xml
   margin-header: |
     ![](/poems/images/logo_circle.svg)
       
