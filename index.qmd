@@ -12,13 +12,14 @@ listing:
 
 ## What is this?
 
-Welcome! We're so glad you're here.  
+Welcome to Sandstone Sonnets! We're so glad you're here.  
 
 On this page you'll find poems written about natural features in and around Fruita, Colorado. These are a bit like a scavenger hunt - see if you can figure out what features these poems describe.  
 
 Time to pack your imagination and hit the trails! 
 
 ## Trailhead filters
+*Selecting a location will filter the list of poems below.*
 
 - [All](/)
 - [Devil's Canyon](/#category=devil's%20canyon)
