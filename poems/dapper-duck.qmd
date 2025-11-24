@@ -1,5 +1,5 @@
 ---
-title: "The Dapper Duck of Fruita"
+title: "Fruita's Dapper Duck"
 subtitle: "D4 #1"
 description: "What's that - a hat?"
 author: "Rudy"
