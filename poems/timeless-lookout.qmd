@@ -1,0 +1,71 @@
+---
+title: "The Timeless Lookout"
+subtitle: "K12 #1"
+description: "Eyes in the sky"
+author: "Rudy"
+date: "2025-11-23"
+# date-modified: "2025-11-23"
+draft: false
+categories:
+  - fruita
+  - poems
+  - kodel's canyon
+  - K12
+---
+
+Peeking down from the K12 rim,  
+Two giant eyes, both wide and slim.  
+Carved by wind with gentle care,  
+Round guardians perched high up there.  
+
+Hikers glance up, grin with delight:  
+“Hey look! The cliff, what a sight!”  
+They sometimes twinkle in the midday sun,  
+As if to say, “Go on, have some fun!”  
+
+The steady gaze, so calm and wise,  
+Instills courage from those mighty eyes.  
+And when the canyon shadows creep,  
+They watch the cliffs drift off to sleep.  
+
+A watchful friend of rock and sky,  
+Who sees the seasons wander by.  
+Never blinking when the breezes fly,  
+A timeless lookout from on high.  
+
+::: {.panel-tabset}
+
+## Hints
+*Click to expand the sections below.*  
+
+::: {.callout-tip collapse="true"}
+## Hint #1: Help...what am I looking for?
+
+Somewhere on the K12 trail, you'll find a place where it looks like two eyes were carved into the sandstone.  
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #2: In what general area should I look?
+
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/k12_eyes_map_hint.png_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.128009%2C-108.751747%3B39.126603%2C-108.752627#map=18/39.127114/-108.751693&layers=P)
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #3: Ok, I need a photo hint please.
+
+![Here's a blurred version of the location you're looking for. Do you see the an area like this?](images/k12_eyes_hint.jpg_answer.jpg){.img-blur2}
+
+:::
+
+## Answer
+
+::: {.callout-tip appearance="minimal" collapse="false"}
+[![](images/k12_eyes_answer_annotated.jpg)](images/k12_eyes_answer_annotated.jpg)
+
+GPS coordinates of this photo: 39.12700, -108.75244   
+
+[![Click for interactive map](images/k12_eyes_map.png)](https://www.openstreetmap.org/?mlat=39.12700&mlon=-108.75244&zoom=19#map=18/39.126856/-108.752069&layers=P) 
+
+:::
