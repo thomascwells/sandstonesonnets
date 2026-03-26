@@ -1,0 +1,71 @@
+---
+title: "Cobra Canyon"
+subtitle: "R1 #2"
+description: "But I thought this was rattlesnake canyon?"
+author: "Rudy"
+date: "2026-03-26"
+# date-modified: "2026-03-26"
+draft: false
+categories:
+  - fruita
+  - poems
+  - rattlesnake arches
+  - R1
+---
+
+Near where the arches stretch,  
+And canyon breezes softly fetch,  
+You’ll see a shape that’s quite a sight,  
+Bathed in desert golden light.  
+
+A cobra rising from the ground,  
+The finest statue to be found.  
+It fans a hood of dusty red,  
+And rears its heavy, stony head.  
+
+It looks as if it might attack,  
+With eyes that watch the canyon track.  
+But do not run in fear or fright,  
+It hasn't moved in all of light.  
+
+For this is just a rock, you see,  
+No venom for you or for me.  
+It has no fangs, no tail, no tongue,    
+Just ancient grains of sand, unsung.  
+
+::: {.panel-tabset}
+
+## Hints
+*Click to expand the sections below.*  
+
+::: {.callout-tip collapse="true"}
+## Hint #1: Help...what am I looking for?
+
+Above Rattlesnake Canyon, you'll find a rock shaped like a cobra with its head raised high.
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #2: In what general area should I look?
+
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_cobra_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.145108%2C-108.850423%3B39.144107%2C-108.848398#map=18/39.144615/-108.849400&layers=P)
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #3: Ok, I need a photo hint please.
+
+![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_cobra_hint.jpg){.img-blur2}
+
+:::
+
+## Answer
+
+::: {.callout-tip appearance="minimal" collapse="false"}
+[![](images/r1_cobra_answer_annotated.jpg)](images/r1_cobra_answer_annotated.jpg)
+
+GPS coordinates of this photo: 39.14455, -108.84978
+
+[![Click for interactive map](images/r1_cobra_map.png)](https://www.openstreetmap.org/directions?from=&to=39.144605%2C-108.849766#map=19/39.144698/-108.850007&layers=P)
+
+:::
