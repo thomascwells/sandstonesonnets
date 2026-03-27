@@ -63,8 +63,8 @@ You are searching for two large rocks. One of them looks like a whale breaching 
 ::: {.callout-tip appearance="minimal" collapse="false"}
 [![](images/f1_shipwreck_answer_annotated.jpg)](images/f1_shipwreck_answer_annotated.jpg)
 
-GPS coordinates of this photo: NEED TO CONFIRM 39.151625, -108.781861  
+GPS coordinates of this photo: 39.15177, -108.78165  
 
-[![Click for interactive map](images/f1_shipwreck_map.png)](https://www.openstreetmap.org/?mlat=39.151625&mlon=-108.781861&zoom=19)
+[![Click for interactive map](images/f1_shipwreck_map.png)](https://www.openstreetmap.org/?mlat=39.15177&mlon=-108.78165&zoom=19)
 
 :::

@@ -1,10 +1,10 @@
 ---
 title: "Cobra Canyon"
-subtitle: "R1 #2"
+subtitle: "R1 #3"
 description: "But I thought this was rattlesnake canyon?"
 author: "Rudy"
-date: "2026-03-26"
-# date-modified: "2026-03-26"
+date: "2026-03-24"
+# date-modified: "2026-03-24"
 draft: false
 categories:
   - fruita
@@ -64,8 +64,8 @@ Above Rattlesnake Canyon, you'll find a rock shaped like a cobra with its head r
 ::: {.callout-tip appearance="minimal" collapse="false"}
 [![](images/r1_cobra_answer_annotated.jpg)](images/r1_cobra_answer_annotated.jpg)
 
-GPS coordinates of this photo: 39.14455, -108.84978
+GPS coordinates of this photo: 39.14444, -108.84980
 
-[![Click for interactive map](images/r1_cobra_map.png)](https://www.openstreetmap.org/directions?from=&to=39.144605%2C-108.849766#map=19/39.144698/-108.850007&layers=P)
+[![Click for interactive map](images/r1_cobra_map.png)](https://www.openstreetmap.org/directions?to=39.14444%2C+-108.84980#map=19/39.144453/-108.849656&layers=P)
 
 :::
