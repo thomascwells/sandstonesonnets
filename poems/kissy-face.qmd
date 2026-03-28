@@ -1,0 +1,66 @@
+---
+title: "Kissy Face Emoji"
+subtitle: "R1 #2"
+description: "Pucker up and blow a kiss to the sky!"
+author: "Rudy"
+date: "2026-03-24"
+# date-modified: "2026-03-24"
+draft: false
+categories:
+  - fruita
+  - poems
+  - rattlesnake arches
+  - R1
+---
+
+Along the trail's winding way,  
+A pucker stops, brightens your day,  
+With lips pursed tight in stone surprise,  
+A smooch that hangs before your eyes.  
+
+No artist hand or potter’s clay,  
+A kissy-face built the R1 way.  
+From grains of rock and wind-filled days,  
+Left out here for us to praise.  
+
+Accidental emoji from ancient art,  
+Still stole my playful desert heart.  
+So blow a kiss, back to the sky,  
+And let your happy spirits fly.  
+
+::: {.panel-tabset}
+
+## Hints
+*Click to expand the sections below.*  
+
+::: {.callout-tip collapse="true"}
+## Hint #1: Help...what am I looking for?
+
+Look closely and you'll find something that resembles a kissy-face emoji near the R1 trail.
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #2: In what general area should I look?
+
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_kiss_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.132308%2C-108.764294%3B39.135494%2C-108.768554#map=17/39.134280/-108.766773&layers=P)
+
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #3: Ok, I need a photo hint please.
+
+![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_kiss_hint.jpg){.img-blur1}
+
+:::
+
+## Answer
+
+::: {.callout-tip appearance="minimal" collapse="false"}
+[![](images/r1_kiss_answer_annotated.jpg)](images/r1_kiss_answer_annotated.jpg)
+
+GPS coordinates of this photo: 39.14691, -108.84625
+
+[![Click for interactive map](images/r1_kiss_map.png)](https://www.openstreetmap.org/?mlat=39.14691&mlon=-108.84625&zoom=19)
+
+:::
