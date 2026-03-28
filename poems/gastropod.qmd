@@ -1,0 +1,74 @@
+---
+title: "The Sneering Snail"
+subtitle: "R1 #2"
+description: "Have you ever seen a grumpy gastropod? Just look up."
+author: "Rudy"
+date: "2026-03-25"
+# date-modified: "2026-03-25"
+draft: false
+categories:
+  - fruita
+  - poems
+  - rattlesnake arches
+  - R1
+---
+
+As the R1 trail begins to bend,  
+After all the steepest climbing ends,  
+There, upon a level seat,  
+A grumpy snail takes the heat.  
+
+His shell is pale, a sandy cream,  
+A sun-bleached, prehistoric gleam.  
+But look into his rocky face,  
+He seems to loathe this quiet place.  
+
+With narrowed eyes and stony glare,  
+He watches hikers unaware.  
+Perhaps he’s cross because he’s stuck,  
+With prehistoric, sluggish luck.  
+
+He wished to reach the canyon floor,  
+A million years ago or more.  
+But mid-way down he took a nap,  
+And fell into a sandstone trap.  
+
+So if you pass his craggy seat,  
+Be sure to move with nimble feet.  
+For though he’s still as still can be,  
+He’s quite a cranky sight to see.  
+
+::: {.panel-tabset}
+
+## Hints
+*Click to expand the sections below.*  
+
+::: {.callout-tip collapse="true"}
+## Hint #1: Help...what am I looking for?
+
+A rock that looks like a snail who is glaring out at the bench below with narrowed eyes.
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #2: In what general area should I look?
+
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_snail_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.147783%2C-108.851404%3B39.147257%2C-108.852805#map=18/39.147119/-108.851514&layers=P)
+
+:::
+
+::: {.callout-tip collapse="true"}
+## Hint #3: Ok, I need a photo hint please.
+
+![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_snail_hint.jpg){.img-blur2}
+
+:::
+
+## Answer
+
+::: {.callout-tip appearance="minimal" collapse="false"}
+[![](images/r1_snail_answer_annotated.jpg)](images/r1_snail_answer_annotated.jpg)
+
+GPS coordinates of this photo: 39.14879, -108.80768  
+
+[![Click for interactive map](images/r1_snail_map.png)](https://www.openstreetmap.org/directions?to=39.14780%2C+-108.85228#map=18/39.147153/-108.851729&layers=P)
+:::

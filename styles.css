@@ -23,3 +23,6 @@
   filter: blur(2px);
 }
 
+.img-blur1 {
+  filter: blur(1px);
+}
