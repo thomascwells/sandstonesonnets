@@ -29,6 +29,7 @@ Now it's time to pack your imagination and hit the trails!
 - [Flume Canyon](/#category=flume%20canyon)
   - [F1](/#category=F1)
 - [Kodel's Canyon](/#category=kodel's%20canyon)
+  - [K1](/#category=K1)
   - [K12](/#category=K12)
 - [Colorado National Monument](/#category=national%20monument)
   - [Monument Canyon](/#category=monument%20canyon)
