@@ -2,19 +2,19 @@
   {
     "listing": "/index.html",
     "items": [
+      "/poems/dapper-duck.html",
+      "/poems/canyon-secret-grin.html",
+      "/poems/red-rock-fury.html",
+      "/poems/desert-shipwreck.html",
+      "/poems/patina-portrait.html",
+      "/poems/guardian-of-the-flume.html",
       "/poems/dragon.html",
-      "/poems/eagle.html",
-      "/poems/snail.html",
-      "/poems/cobra.html",
-      "/poems/kissy-face.html",
       "/poems/timeless-lookout.html",
       "/poems/elephant-seal.html",
-      "/poems/desert-shipwreck.html",
-      "/poems/guardian-of-the-flume.html",
-      "/poems/patina-portrait.html",
-      "/poems/canyon-secret-grin.html",
-      "/poems/dapper-duck.html",
-      "/poems/red-rock-fury.html"
+      "/poems/eagle.html",
+      "/poems/kissy-face.html",
+      "/poems/snail.html",
+      "/poems/cobra.html"
     ]
   }
 ]
