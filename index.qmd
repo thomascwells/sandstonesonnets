@@ -1,7 +1,7 @@
 ---
 listing:
   contents: poems
-  sort: "date desc"
+  sort: "subtitle"
   sort-ui: true
   filter-ui: true
   type: default
@@ -14,7 +14,7 @@ listing:
 
 Welcome to Sandstone Sonnets! We're so glad you're here.  
 
-On this page you'll find poems written about natural features (mostly rock formations) in and around Fruita, Colorado. These are a bit like a scavenger hunt. See if you can figure out what landscape features these poems describe.  
+On this page you'll find short, fun poems written about natural features (mostly rock formations) in and around Fruita, Colorado. These are a bit like a scavenger hunt. See if you can figure out what landscape features these poems describe.  
 
 For more information about how to use the website, check out the [FAQ](/faq) page.  
 
