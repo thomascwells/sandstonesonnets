@@ -1,7 +1,7 @@
 ---
 title: "Pollock's Backside"
 subtitle: "P1 #1"
-description: "Sun's out, buns out"
+description: "The moon is out"
 author: "Rudy"
 date: "2026-10-08"
 # date-modified: "2026-10-08"
@@ -67,6 +67,8 @@ Somewhere on the P1 trail, you'll find a rock formation that looks like two plum
 
 GPS coordinates of this photo: 39.14136, -108.80566
 
-[![Click for interactive map](images/p1_backside_map.png)](https://www.openstreetmap.org/?mlat=39.14136&mlon=-108.80566&zoom=19)
+[![](images/p1_backside_map.png)](https://www.openstreetmap.org/?mlat=39.14136&mlon=-108.80566&zoom=19)
+
+[Click for interactive map](https://www.openstreetmap.org/?mlat=39.14136&mlon=-108.80566&zoom=19)
 
 :::
