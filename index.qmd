@@ -31,6 +31,8 @@ Now it's time to pack your imagination and hit the trails!
 - [Kodel's Canyon](/#category=kodel's%20canyon)
   - [K1](/#category=K1)
   - [K12](/#category=K12)
+- [Pollock Canyon](/#category=pollock%20canyon)
+  - [P1](/#category=P1)
 - [Colorado National Monument](/#category=national%20monument)
   - [Monument Canyon](/#category=monument%20canyon)
 - [Rattlesnake Arches](/#category=rattlesnake%20arches)
