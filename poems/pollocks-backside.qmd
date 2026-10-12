@@ -67,8 +67,8 @@ Somewhere on the P1 trail, you'll find a rock formation that looks like two plum
 
 GPS coordinates of this photo: 39.14136, -108.80566
 
-[![](images/p1_backside_map.png)](https://www.openstreetmap.org/?mlat=39.14136&mlon=-108.80566&zoom=19)
+[![Click map for interactive view](images/p1_backside_map.png)](https://www.openstreetmap.org/?mlat=39.14136&mlon=-108.80566&zoom=19)
 
-[Click for interactive map](https://www.openstreetmap.org/?mlat=39.14136&mlon=-108.80566&zoom=19)
+*Thanks to our friends at Mesa Monument Striders for spotting this cheeky view!*
 
 :::
