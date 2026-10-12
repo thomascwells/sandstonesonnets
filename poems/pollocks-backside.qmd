@@ -21,7 +21,7 @@ Just two solid glutes, holding firm in their place.
 No matter the season, no matter the phase,  
 It's always a full moon up Pollock a ways.  
 It looks like whoever got stuck on that rim,  
-Never once missed leg day, never skipped the gym.  
+Never missed leg day, didn't skip the gym.  
 
 So hike clockwise along with your eyes on the prize,  
 Hold a steady watch outward for nature's surprise.  
@@ -49,7 +49,7 @@ Somewhere on the P1 trail, you'll find a rock formation that looks like two plum
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/p1_backside_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.14309%2C-108.80475%3B39.14056%2C-108.80467#map=17/39.14174/-108.80261&layers=P)
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click the map for an interactive view.](images/p1_backside_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.14309%2C-108.80475%3B39.14056%2C-108.80467#map=17/39.14174/-108.80261&layers=P)
 
 :::
 
