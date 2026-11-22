@@ -1,6 +1,7 @@
 ---
 title: "The Timeless Lookout"
 subtitle: "K12 #1"
+image: "images/k12_eyes_thumb.jpg"
 description: "Eyes in the sky"
 author: "Rudy"
 date: "2025-11-23"

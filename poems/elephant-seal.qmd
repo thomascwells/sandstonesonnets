@@ -1,6 +1,7 @@
 ---
 title: "The Elephant Seal"
 subtitle: "Monument Canyon #1"
+image: "images/monument_seal_thumb.jpg"
 description: "Does that seal look hungry to you?"
 author: "Rudy"
 date: "2025-10-19"

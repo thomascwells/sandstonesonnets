@@ -1,6 +1,7 @@
 ---
 title: "Kissy Face Emoji"
 subtitle: "R1 #2"
+image: "images/r1_kiss_thumb.jpg"
 description: "Pucker up and blow a kiss to the sky!"
 author: "Rudy"
 date: "2026-03-24"

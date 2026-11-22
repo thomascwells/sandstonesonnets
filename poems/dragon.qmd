@@ -1,6 +1,7 @@
 ---
 title: "Dragon Dreams"
 subtitle: "K1 #1"
+image: "images/k1_dragon_thumb.jpg"
 description: "The sleepy giant"
 author: "Rudy"
 date: "2026-04-14"

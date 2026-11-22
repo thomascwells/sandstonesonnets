@@ -25,7 +25,7 @@ pip install pillow   # first time only
 python scripts/optimize_images.py
 ```
 
-This resizes photos, blurs the tagged hint photos in the file itself (and removes the tag, since the blur is now baked in), and compresses map screenshots. It skips anything already done, so it's safe to run every time. It overwrites the originals, so keep full-size copies elsewhere if you want them.
+This resizes photos, blurs the tagged hint photos in the file itself (and removes the tag, since the blur is now baked in), compresses map screenshots, and makes a small homepage thumbnail from each poem's `*_map_hint.png`, cropped around the purple trail section. It adds an `image:` line to the poem so the homepage card uses that thumbnail. It skips anything already done, so it's safe to run every time. It overwrites the originals, so keep full-size copies elsewhere if you want them.
 
 Use the `quarto preview` command below to view the output locally. 
 

@@ -1,6 +1,7 @@
 ---
 title: "The Sneering Snail"
 subtitle: "R1 #3"
+image: "images/r1_snail_thumb.jpg"
 description: "Ever seen a grumpy gastropod? Just look up."
 author: "Rudy"
 date: "2026-03-25"
