@@ -7,7 +7,7 @@ listing:
   sort-ui: true
   filter-ui: true
   type: default
-  categories: unnumbered
+  categories: false
   feed: true
   image-height: "150px"
 ---
