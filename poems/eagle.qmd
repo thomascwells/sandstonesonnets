@@ -8,7 +8,6 @@ date: "2026-03-25"
 draft: false
 categories:
   - fruita
-  - poems
   - rattlesnake arches
   - R1
 ---
@@ -47,24 +46,26 @@ Somewhere on the R1 trail, you'll find a rock shaped like an eagle, standing tal
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_eagle_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.149156%2C-108.807234%3B39.148081%2C-108.807776#map=17/39.148921/-108.808406&layers=P)
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_eagle_map_hint.png){fig-alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple"}](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.149156%2C-108.807234%3B39.148081%2C-108.807776#map=17/39.148921/-108.808406&layers=P)
 
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_eagle_hint.jpg){.img-blur2}
+![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_eagle_hint.jpg){fig-alt="Blurred photo of the landscape around the hidden feature"}
 
 :::
 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/r1_eagle_answer_annotated.jpg)](images/r1_eagle_answer_annotated.jpg)
+[![](images/r1_eagle_answer_annotated.jpg){fig-alt="Answer photo: a rock shaped like an eagle standing above the canyon, marked on the photo"}](images/r1_eagle_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.14879, -108.80768  
 
-[![Click for interactive map](images/r1_eagle_map.png)](https://www.openstreetmap.org/?mlat=39.14879&mlon=-108.80768&zoom=19)
+[![Click for interactive map](images/r1_eagle_map.png){fig-alt="Map with a pin marking where the answer photo was taken"}](https://www.openstreetmap.org/?mlat=39.14879&mlon=-108.80768&zoom=19)
+
+:::
 
 :::

@@ -51,3 +51,6 @@ rsconnect/
 /.quarto/
 /_site/
 **/*.quarto_ipynb
+
+# Python
+__pycache__/

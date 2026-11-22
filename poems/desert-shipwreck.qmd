@@ -8,7 +8,6 @@ date: "2025-09-28"
 draft: false
 categories:
   - fruita
-  - poems
   - flume canyon
   - F1
 ---
@@ -47,24 +46,26 @@ You are searching for two large rocks. One of them looks like a whale breaching 
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/f1_shipwreck_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.152328%2C-108.781096%3B39.150329%2C-108.781525#map=18/39.151345/-108.781407&layers=P)
+[![This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/f1_shipwreck_map_hint.png){fig-alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple"}](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.152328%2C-108.781096%3B39.150329%2C-108.781525#map=18/39.151345/-108.781407&layers=P)
 
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Here's a blurred version of the location you're looking for. See anything that looks like this?](images/f1_shipwreck_answer.jpg){.img-blur3}
+![Here's a blurred version of the location you're looking for. See anything that looks like this?](images/f1_shipwreck_answer.jpg){fig-alt="Blurred photo of the landscape around the hidden feature"}
 
 :::
 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/f1_shipwreck_answer_annotated.jpg)](images/f1_shipwreck_answer_annotated.jpg)
+[![](images/f1_shipwreck_answer_annotated.jpg){fig-alt="Answer photo: two rocks, one like a whale breaching the water and one like a sinking ship, marked on the photo"}](images/f1_shipwreck_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.15177, -108.78165  
 
-[![Click for interactive map](images/f1_shipwreck_map.png)](https://www.openstreetmap.org/?mlat=39.15177&mlon=-108.78165&zoom=19)
+[![Click for interactive map](images/f1_shipwreck_map.png){fig-alt="Map with a pin marking where the answer photo was taken"}](https://www.openstreetmap.org/?mlat=39.15177&mlon=-108.78165&zoom=19)
+
+:::
 
 :::

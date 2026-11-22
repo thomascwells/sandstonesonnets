@@ -8,7 +8,6 @@ date: "2026-10-08"
 draft: false
 categories:
   - fruita
-  - poems
   - pollock canyon
   - P1
 ---
@@ -49,26 +48,28 @@ Somewhere on the P1 trail, you'll find a rock formation that looks like two plum
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature can be found somewhere along the section of trail highlighted in purple above. Click the map for an interactive view.](images/p1_backside_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.14309%2C-108.80475%3B39.14056%2C-108.80467#map=17/39.14174/-108.80261&layers=P)
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click the map for an interactive view.](images/p1_backside_map_hint.png){fig-alt="Trail map of Pollock Canyon trail P1 with the section to search highlighted in purple"}](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.14309%2C-108.80475%3B39.14056%2C-108.80467#map=17/39.14174/-108.80261&layers=P)
 
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Here's a blurred version of the location you're looking for. Can you find this area?](images/p1_backside_hint.jpg){.img-blur2}
+![Here's a blurred version of the location you're looking for. Can you find this area?](images/p1_backside_hint.jpg){fig-alt="Blurred photo of the landscape around the hidden feature"}
 
 :::
 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/p1_backside_answer_annotated.jpg)](images/p1_backside_answer_annotated.jpg)
+[![](images/p1_backside_answer_annotated.jpg){fig-alt="Answer photo: a rock formation that looks like two plump butt cheeks, marked on the photo"}](images/p1_backside_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.14136, -108.80566
 
-[![Click map for interactive view](images/p1_backside_map.png)](https://www.openstreetmap.org/?mlat=39.14136&mlon=-108.80566&zoom=19)
+[![Click map for interactive view](images/p1_backside_map.png){fig-alt="Map with a pin marking where the answer photo was taken"}](https://www.openstreetmap.org/?mlat=39.14136&mlon=-108.80566&zoom=19)
 
 *Thanks to our friends at Mesa Monument Striders for spotting this cheeky view!*
+
+:::
 
 :::

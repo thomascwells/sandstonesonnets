@@ -1,4 +1,6 @@
 ---
+title: "Sandstone Sonnets"
+description: "Short, fun poems about rock formations on the trails around Fruita, Colorado. A scavenger hunt for hikers."
 listing:
   contents: poems
   sort: "subtitle"
@@ -16,7 +18,9 @@ Welcome to Sandstone Sonnets! We're so glad you're here.
 
 On this page you'll find short, fun poems written about natural features (mostly rock formations) in and around Fruita, Colorado. These are a bit like a scavenger hunt. See if you can figure out what landscape features these poems describe.  
 
-For more information about how to use the website, check out the [FAQ](/faq) page.  
+For more information about how to use the website, check out the [FAQ](/faq) page.
+
+Know a rock that deserves a poem? [Submit it here!](mailto:mail@sandstonesonnets.com?subject=Poem%20Suggestion&body=I%20have%20a%20great%20idea%20for%20a%20poem%20about%20%5Binsert%20location%20here%5D.)
 
 Now it's time to pack your imagination and hit the trails! 
 

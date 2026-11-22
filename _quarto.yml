@@ -4,21 +4,28 @@ project:
   render:
     - "*.qmd"
 
-  resources: 
+  resources:
     - "files/**"
+    - "poems/images/share.jpg"
 
 freeze: auto
 
 website:
   title: "Sandstone Sonnets"
-  favicon: "/poems/images/logo_circle.svg"
-  site-url: "https://thomascwells.com/sandstonesonnets/"
+  favicon: "/poems/images/favicon.png"
+  site-url: "https://sandstonesonnets.com/"
+  description: "Short, fun poems about rock formations on the trails around Fruita, Colorado. A scavenger hunt for hikers."
+  image: "poems/images/share.jpg"
+  open-graph: true
+  twitter-card:
+    card-style: summary
   repo-url: "https://github.com/thomascwells/sandstonesonnets"
   repo-actions: [edit, issue]
   bread-crumbs: true
   navbar:
     pinned: false
-    logo: "/poems/images/logo_circle.svg"
+    logo: "/poems/images/logo.webp"
+    logo-alt: "Sandstone Sonnets logo"
     left:
       - href: index.qmd
         text: Home
@@ -35,7 +42,7 @@ website:
     #   - icon: rss
     #     href: index.xml
   margin-header: |
-    ![](/poems/images/logo_circle.svg)
+    ![](/poems/images/logo.webp){fig-alt="Sandstone Sonnets logo"}
       
 format:
   html:
@@ -47,6 +54,9 @@ format:
     toc: false
 #    highlight-style: monokai
     css: styles.css
+
+filters:
+  - lazy-images.lua
 
   
   

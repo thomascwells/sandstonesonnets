@@ -8,7 +8,6 @@ date: "2025-10-19"
 draft: false
 categories:
   - fruita
-  - poems
   - national monument
   - monument canyon
 ---
@@ -48,24 +47,26 @@ You'll find a rock next to the trail that looks like the profile of an elephant 
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![You'll find this rock formation along the Monument Canyon trail. It is located somewhere in the area highlighted in purple above. Click for an interactive map.](images/monument_seal_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=18/39.100442/-108.707367&layers=P)
+[![You'll find this rock formation along the Monument Canyon trail. It is located somewhere in the area highlighted in purple above. Click for an interactive map.](images/monument_seal_map_hint.png){fig-alt="Trail map of the Monument Canyon trail with the section to search highlighted in purple"}](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=18/39.100442/-108.707367&layers=P)
 
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Can you find an area that looks like this? For the best elephant seal angle, walk just past the rock and then turn around to look back at it.](images/monument_seal_answer.jpg)
+![Can you find an area that looks like this? For the best elephant seal angle, walk just past the rock and then turn around to look back at it.](images/monument_seal_answer.jpg){fig-alt="Blurred photo of the landscape around the hidden feature"}
 
 :::
 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/monument_seal_answer_annotated2.jpg)](images/monument_seal_answer_annotated2.jpg)
+[![](images/monument_seal_answer_annotated2.jpg){fig-alt="Answer photo: a rock shaped like the profile of an elephant seal with its mouth wide open, marked on the photo"}](images/monument_seal_answer_annotated2.jpg)
 
 GPS coordinates of this photo: 39.10077, -108.70906
 
-[![Click for interactive map](images/monument_seal_map.png)](https://www.openstreetmap.org/?mlat=39.10077&mlon=-108.70906&zoom=19)
+[![Click for interactive map](images/monument_seal_map.png){fig-alt="Map with a pin marking where the answer photo was taken"}](https://www.openstreetmap.org/?mlat=39.10077&mlon=-108.70906&zoom=19)
+
+:::
 
 :::

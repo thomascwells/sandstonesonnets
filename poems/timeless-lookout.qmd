@@ -8,7 +8,6 @@ date: "2025-11-23"
 draft: false
 categories:
   - fruita
-  - poems
   - kodel's canyon
   - K12
 ---
@@ -48,24 +47,26 @@ Somewhere on the K12 trail, you'll find a place where it looks like two eyes wer
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/k12_eyes_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.128009%2C-108.751747%3B39.126603%2C-108.752627#map=18/39.127114/-108.751693&layers=P)
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/k12_eyes_map_hint.png){fig-alt="Trail map of Kodel's Canyon trail K12 with the section to search highlighted in purple"}](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.128009%2C-108.751747%3B39.126603%2C-108.752627#map=18/39.127114/-108.751693&layers=P)
 
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Here's a blurred version of the location you're looking for. Do you see the an area like this?](images/k12_eyes_hint.jpg){.img-blur2}
+![Here's a blurred version of the location you're looking for. Do you see the an area like this?](images/k12_eyes_hint.jpg){fig-alt="Blurred photo of the landscape around the hidden feature"}
 
 :::
 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/k12_eyes_answer_annotated.jpg)](images/k12_eyes_answer_annotated.jpg)
+[![](images/k12_eyes_answer_annotated.jpg){fig-alt="Answer photo: two eye shapes carved into the sandstone, marked on the photo"}](images/k12_eyes_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.12700, -108.75244   
 
-[![Click for interactive map](images/k12_eyes_map.png)](https://www.openstreetmap.org/?mlat=39.12700&mlon=-108.75244&zoom=19#map=18/39.126856/-108.752069&layers=P) 
+[![Click for interactive map](images/k12_eyes_map.png){fig-alt="Map with a pin marking where the answer photo was taken"}](https://www.openstreetmap.org/?mlat=39.12700&mlon=-108.75244&zoom=19#map=18/39.126856/-108.752069&layers=P) 
+
+:::
 
 :::

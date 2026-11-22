@@ -16,6 +16,17 @@ quarto add quarto-ext/fontawesome
 
 Make your edits to local files and save changes.
 
+## Adding photos
+
+Add photos to `poems/images/` straight from your phone, and blur hint photos the usual way with `{.img-blur1}`, `{.img-blur2}` or `{.img-blur3}`. Before committing, shrink them:
+
+```sh
+pip install pillow   # first time only
+python scripts/optimize_images.py
+```
+
+This resizes photos, blurs the tagged hint photos in the file itself (and removes the tag, since the blur is now baked in), and compresses map screenshots. It skips anything already done, so it's safe to run every time. It overwrites the originals, so keep full-size copies elsewhere if you want them.
+
 Use the `quarto preview` command below to view the output locally. 
 
 ```sh
