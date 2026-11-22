@@ -8,7 +8,6 @@ date: "2026-03-25"
 draft: false
 categories:
   - fruita
-  - poems
   - rattlesnake arches
   - R1
 ---
@@ -52,23 +51,25 @@ A rock that looks like a snail who is glaring out at the bench below with narrow
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_snail_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.147783%2C-108.851404%3B39.147257%2C-108.852805#map=18/39.147119/-108.851514&layers=P)
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_snail_map_hint.png){fig-alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple"}](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.147783%2C-108.851404%3B39.147257%2C-108.852805#map=18/39.147119/-108.851514&layers=P)
 
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_snail_hint.jpg){.img-blur2}
+![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_snail_hint.jpg){fig-alt="Blurred photo of the landscape around the hidden feature"}
 
 :::
 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/r1_snail_answer_annotated.jpg)](images/r1_snail_answer_annotated.jpg)
+[![](images/r1_snail_answer_annotated.jpg){fig-alt="Answer photo: a rock shaped like a snail glaring out with narrowed eyes, marked on the photo"}](images/r1_snail_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.14879, -108.80768  
 
-[![Click for interactive map](images/r1_snail_map.png)](https://www.openstreetmap.org/directions?to=39.14780%2C+-108.85228#map=18/39.147153/-108.851729&layers=P)
+[![Click for interactive map](images/r1_snail_map.png){fig-alt="Map with a pin marking where the answer photo was taken"}](https://www.openstreetmap.org/directions?to=39.14780%2C+-108.85228#map=18/39.147153/-108.851729&layers=P)
+:::
+
 :::

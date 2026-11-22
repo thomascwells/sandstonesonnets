@@ -8,7 +8,6 @@ date: "2026-03-24"
 draft: false
 categories:
   - fruita
-  - poems
   - rattlesnake arches
   - R1
 ---
@@ -42,7 +41,7 @@ Look closely and you'll find something that resembles a kissy-face emoji near th
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_kiss_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.132308%2C-108.764294%3B39.135494%2C-108.768554#map=17/39.134280/-108.766773&layers=P)
+[![This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.](images/r1_kiss_map_hint.png){fig-alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple"}](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.132308%2C-108.764294%3B39.135494%2C-108.768554#map=17/39.134280/-108.766773&layers=P)
 
 
 :::
@@ -50,17 +49,19 @@ Look closely and you'll find something that resembles a kissy-face emoji near th
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_kiss_hint.jpg){.img-blur1}
+![Here's a blurred version of the location you're looking for. Can you find this area?](images/r1_kiss_hint.jpg){fig-alt="Blurred photo of the landscape around the hidden feature"}
 
 :::
 
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/r1_kiss_answer_annotated.jpg)](images/r1_kiss_answer_annotated.jpg)
+[![](images/r1_kiss_answer_annotated.jpg){fig-alt="Answer photo: a rock that looks like a kissy-face emoji, marked on the photo"}](images/r1_kiss_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.14691, -108.84625
 
-[![Click for interactive map](images/r1_kiss_map.png)](https://www.openstreetmap.org/?mlat=39.14691&mlon=-108.84625&zoom=19)
+[![Click for interactive map](images/r1_kiss_map.png){fig-alt="Map with a pin marking where the answer photo was taken"}](https://www.openstreetmap.org/?mlat=39.14691&mlon=-108.84625&zoom=19)
+
+:::
 
 :::

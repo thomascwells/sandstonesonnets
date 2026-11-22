@@ -8,7 +8,6 @@ date: "2025-09-16"
 draft: false
 categories:
   - fruita
-  - poems
   - flume canyon
   - F1
 ---
@@ -47,14 +46,14 @@ Somewhere on the F1 trail, there is varnish on the sandstone that looks a little
 ::: {.callout-tip collapse="true"}
 ## Hint #2: In what general area should I look?
 
-[![This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/f1_portrait_map_hint.png)](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.14727%2C-108.78267%3B39.14963%2C-108.78177#map=17/39.148941/-108.781600&layers=P)
+[![This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.](images/f1_portrait_map_hint.png){fig-alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple"}](https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=39.14727%2C-108.78267%3B39.14963%2C-108.78177#map=17/39.148941/-108.781600&layers=P)
 
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Hint #3: Ok, I need a photo hint please.
 
-![Can you find anything that looks like this?](images/f1_portrait_answer.jpg)
+![Can you find anything that looks like this?](images/f1_portrait_answer.jpg){fig-alt="Blurred photo of the landscape around the hidden feature"}
 
 
 :::
@@ -62,10 +61,12 @@ Somewhere on the F1 trail, there is varnish on the sandstone that looks a little
 ## Answer
 
 ::: {.callout-tip appearance="minimal" collapse="false"}
-[![](images/f1_portrait_answer_annotated.jpg)](images/f1_portrait_answer_annotated.jpg)
+[![](images/f1_portrait_answer_annotated.jpg){fig-alt="Answer photo: dark varnish on the sandstone that looks like a portrait of someone from the Old West, marked on the photo"}](images/f1_portrait_answer_annotated.jpg)
 
 GPS coordinates of this photo: 39.148763, -108.781902  
 
-[![Click for interactive map](images/f1_portrait_map.png)](https://www.openstreetmap.org/?mlat=39.148763&mlon=-108.781902&zoom=19)
+[![Click for interactive map](images/f1_portrait_map.png){fig-alt="Map with a pin marking where the answer photo was taken"}](https://www.openstreetmap.org/?mlat=39.148763&mlon=-108.781902&zoom=19)
+
+:::
 
 :::
