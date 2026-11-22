@@ -2,6 +2,7 @@
 title: "Sandstone Sonnets"
 description: "Short, fun poems about rock formations on the trails around Fruita, Colorado. A scavenger hunt for hikers."
 listing:
+  id: poem-list
   contents: poems
   sort: "subtitle"
   sort-ui: true
@@ -16,13 +17,13 @@ listing:
 
 Welcome to Sandstone Sonnets! We're so glad you're here.  
 
-On this page you'll find whimsical poems written about natural features (mostly rock formations) in and around Fruita, Colorado. These are a bit like a scavenger hunt. See if you can find the landscape features these poems describe. There are plenty of hints if you need them!  
+On this page you'll find whimsical poems written about natural features (mostly rock formations) in and around Fruita, Colorado. These are a bit like a scavenger hunt. See if you can find the landscape features these poems describe. There are plenty of hints if you need them.  
 
-For more information about how to use the website, check out the [FAQ](/faq) page.
+## Who is it for?
 
-Know a rock that deserves a poem? [Submit it here!](mailto:mail@sandstonesonnets.com?subject=Poem%20Suggestion&body=I%20have%20a%20great%20idea%20for%20a%20poem%20about%20%5Binsert%20location%20here%5D.)
+Locals and visitors, young and old. Kids are especially good at this, so parents: be prepared to pack your imagination!  
 
-Now it's time to pack your imagination and hit the trails! 
+For more information about how to use the website, check out the [FAQ](/faq) page.   
 
 ## Trailhead filters
 *Tap a trailhead or trail to filter the poems below.*
@@ -75,3 +76,10 @@ document.addEventListener("DOMContentLoaded", function () {
 ```
 
 ## Poems
+
+::: {#poem-list}
+:::
+
+## Know a rock that deserves a poem? 
+
+Submit it [here](mailto:mail@sandstonesonnets.com?subject=Poem%20Suggestion&body=I%20have%20a%20great%20idea%20for%20a%20poem%20about%20%5Binsert%20location%20here%5D.)!  
