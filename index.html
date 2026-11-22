@@ -135,13 +135,13 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="Sandstone Sonnets" href="index.xml" data-external="1"><meta property="og:title" content="Sandstone Sonnets">
 <meta property="og:description" content="Short, fun poems about rock formations on the trails around Fruita, Colorado. A scavenger hunt for hikers.">
-<meta property="og:image" content="https://sandstonesonnets.com/poems/images/share.jpg">
+<meta property="og:image" content="https://sandstonesonnets.com/poems/images/d4_duck_thumb.jpg">
 <meta property="og:site_name" content="Sandstone Sonnets">
-<meta property="og:image:height" content="600">
-<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="300">
+<meta property="og:image:width" content="450">
 <meta name="twitter:title" content="Sandstone Sonnets">
 <meta name="twitter:description" content="Short, fun poems about rock formations on the trails around Fruita, Colorado. A scavenger hunt for hikers.">
-<meta name="twitter:image" content="https://sandstonesonnets.com/poems/images/share.jpg">
+<meta name="twitter:image" content="https://sandstonesonnets.com/poems/images/d4_duck_thumb.jpg">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -226,35 +226,44 @@ window.Quarto = {
 </section>
 <section id="trailhead-filters" class="level2">
 <h2 class="anchored" data-anchor-id="trailhead-filters">Trailhead filters</h2>
-<p><em>Selecting a location will filter the list of poems below.</em></p>
-<ul>
-<li><a href=".">All</a></li>
-<li><a href="./#category=devil's canyon">Devil’s Canyon</a>
-<ul>
-<li><a href="./#category=D4">D4</a></li>
-</ul></li>
-<li><a href="./#category=flume canyon">Flume Canyon</a>
-<ul>
-<li><a href="./#category=F1">F1</a></li>
-</ul></li>
-<li><a href="./#category=kodel's canyon">Kodel’s Canyon</a>
-<ul>
-<li><a href="./#category=K1">K1</a></li>
-<li><a href="./#category=K12">K12</a></li>
-</ul></li>
-<li><a href="./#category=pollock canyon">Pollock Canyon</a>
-<ul>
-<li><a href="./#category=P1">P1</a></li>
-</ul></li>
-<li><a href="./#category=national monument">Colorado National Monument</a>
-<ul>
-<li><a href="./#category=monument canyon">Monument Canyon</a></li>
-</ul></li>
-<li><a href="./#category=rattlesnake arches">Rattlesnake Arches</a>
-<ul>
-<li><a href="./#category=R1">R1</a></li>
-</ul></li>
-</ul>
+<p><em>Tap a trailhead or trail to filter the poems below.</em></p>
+<div class="trail-picker">
+<p><a href="." class="trail-chip">All poems</a></p>
+<p><a href="./#category=devil's canyon" class="trail-area">Devil’s Canyon</a> <a href="./#category=D4" class="trail-chip">D4</a></p>
+<p><a href="./#category=flume canyon" class="trail-area">Flume Canyon</a> <a href="./#category=F1" class="trail-chip">F1</a></p>
+<p><a href="./#category=kodel's canyon" class="trail-area">Kodel’s Canyon</a> <a href="./#category=K1" class="trail-chip">K1</a> <a href="./#category=K12" class="trail-chip">K12</a></p>
+<p><a href="./#category=pollock canyon" class="trail-area">Pollock Canyon</a> <a href="./#category=P1" class="trail-chip">P1</a></p>
+<p><a href="./#category=national monument" class="trail-area">Colorado National Monument</a> <a href="./#category=monument canyon" class="trail-chip">Monument Canyon</a></p>
+<p><a href="./#category=rattlesnake arches" class="trail-area">Rattlesnake Arches</a> <a href="./#category=R1" class="trail-chip">R1</a></p>
+</div>
+<script>
+// Highlight the trail chip that matches the current filter.
+function markActiveTrail() {
+  var current = decodeURIComponent(location.hash || "");
+  document.querySelectorAll(".trail-picker a").forEach(function (a) {
+    var hash = decodeURIComponent(new URL(a.href).hash);
+    a.classList.toggle("active", hash === current);
+  });
+}
+window.addEventListener("hashchange", markActiveTrail);
+document.addEventListener("DOMContentLoaded", markActiveTrail);
+
+// Add a "New" badge to poems published in the last NEW_DAYS days.
+var NEW_DAYS = 60;
+document.addEventListener("DOMContentLoaded", function () {
+  var cutoff = Date.now() - NEW_DAYS * 24 * 60 * 60 * 1000;
+  document.querySelectorAll(".quarto-post[data-listing-date-sort]").forEach(function (post) {
+    var date = Number(post.getAttribute("data-listing-date-sort"));
+    var title = post.querySelector(".listing-title");
+    if (date > cutoff && title) {
+      var badge = document.createElement("span");
+      badge.className = "new-badge";
+      badge.textContent = "New";
+      title.appendChild(badge);
+    }
+  });
+});
+</script>
 </section>
 <section id="poems" class="level2">
 <h2 class="anchored" data-anchor-id="poems">Poems</h2>
@@ -290,10 +299,10 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795369184227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
+<div class="quarto-post image-right" data-index="0" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795371362097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
 <div class="thumbnail"><a href="./poems/dapper-duck.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/d4_duck_map_hint.png" alt="Trail map of Devil's Canyon trail D4 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/d4_duck_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -329,10 +338,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795369184226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
+<div class="quarto-post image-right" data-index="1" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795371362096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
 <div class="thumbnail"><a href="./poems/canyon-secret-grin.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/d4_grin_map_hint.png" alt="Trail map of Devil's Canyon trail D4 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/d4_grin_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -368,10 +377,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795369184244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="287">
+<div class="quarto-post image-right" data-index="2" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795371362122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="287">
 <div class="thumbnail"><a href="./poems/red-rock-fury.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/d4_fury_map_hint.png" alt="Trail map of Devil's Canyon trail D4 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/d4_fury_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -407,10 +416,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1759017600000" data-listing-file-modified-sort="1795369184227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
+<div class="quarto-post image-right" data-index="3" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1759017600000" data-listing-file-modified-sort="1795371362097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
 <div class="thumbnail"><a href="./poems/desert-shipwreck.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/f1_shipwreck_map_hint.png" alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/f1_shipwreck_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -446,10 +455,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1757980800000" data-listing-file-modified-sort="1795369184244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="284">
+<div class="quarto-post image-right" data-index="4" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1757980800000" data-listing-file-modified-sort="1795371362122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="284">
 <div class="thumbnail"><a href="./poems/patina-portrait.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/f1_portrait_map_hint.png" alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/f1_portrait_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -485,10 +494,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1758326400000" data-listing-file-modified-sort="1795369184227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
+<div class="quarto-post image-right" data-index="5" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1758326400000" data-listing-file-modified-sort="1795371362097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
 <div class="thumbnail"><a href="./poems/guardian-of-the-flume.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/f1_guardian_map_hint.png" alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/f1_guardian_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -524,10 +533,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="ZnJ1aXRhJTJDa29kZWwncyUyMGNhbnlvbiUyQ0sx" data-listing-date-sort="1776124800000" data-listing-file-modified-sort="1795369184227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
+<div class="quarto-post image-right" data-index="6" data-categories="ZnJ1aXRhJTJDa29kZWwncyUyMGNhbnlvbiUyQ0sx" data-listing-date-sort="1776124800000" data-listing-file-modified-sort="1795371362097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
 <div class="thumbnail"><a href="./poems/dragon.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/k1_dragon_map_hint.png" alt="Trail map of Kodel's Canyon trail K1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/k1_dragon_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -563,10 +572,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="ZnJ1aXRhJTJDa29kZWwncyUyMGNhbnlvbiUyQ0sxMg==" data-listing-date-sort="1763856000000" data-listing-file-modified-sort="1795369184244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
+<div class="quarto-post image-right" data-index="7" data-categories="ZnJ1aXRhJTJDa29kZWwncyUyMGNhbnlvbiUyQ0sxMg==" data-listing-date-sort="1763856000000" data-listing-file-modified-sort="1795371362122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
 <div class="thumbnail"><a href="./poems/timeless-lookout.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/k12_eyes_map_hint.png" alt="Trail map of Kodel's Canyon trail K12 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/k12_eyes_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -602,10 +611,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="ZnJ1aXRhJTJDbmF0aW9uYWwlMjBtb251bWVudCUyQ21vbnVtZW50JTIwY2FueW9u" data-listing-date-sort="1760832000000" data-listing-file-modified-sort="1795369184227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="297">
+<div class="quarto-post image-right" data-index="8" data-categories="ZnJ1aXRhJTJDbmF0aW9uYWwlMjBtb251bWVudCUyQ21vbnVtZW50JTIwY2FueW9u" data-listing-date-sort="1760832000000" data-listing-file-modified-sort="1795371362097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="297">
 <div class="thumbnail"><a href="./poems/elephant-seal.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/monument_seal_map_hint.png" alt="Trail map of the Monument Canyon trail with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/monument_seal_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -641,10 +650,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="ZnJ1aXRhJTJDcG9sbG9jayUyMGNhbnlvbiUyQ1Ax" data-listing-date-sort="1791417600000" data-listing-file-modified-sort="1795369184244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
+<div class="quarto-post image-right" data-index="9" data-categories="ZnJ1aXRhJTJDcG9sbG9jayUyMGNhbnlvbiUyQ1Ax" data-listing-date-sort="1791417600000" data-listing-file-modified-sort="1795371362122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
 <div class="thumbnail"><a href="./poems/pollocks-backside.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/p1_backside_map_hint.png" alt="Trail map of Pollock Canyon trail P1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/p1_backside_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -680,10 +689,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1795369184227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
+<div class="quarto-post image-right" data-index="10" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1795371362097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
 <div class="thumbnail"><a href="./poems/eagle.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/r1_eagle_map_hint.png" alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/r1_eagle_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -719,10 +728,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1795369184244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+<div class="quarto-post image-right" data-index="11" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1795371362122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
 <div class="thumbnail"><a href="./poems/kissy-face.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/r1_kiss_map_hint.png" alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/r1_kiss_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -758,10 +767,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1795369184244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<div class="quarto-post image-right" data-index="12" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1795371362122" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
 <div class="thumbnail"><a href="./poems/snail.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/r1_snail_map_hint.png" alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/r1_snail_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
@@ -797,10 +806,10 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1795369184227" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
+<div class="quarto-post image-right" data-index="13" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1795371362097" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
 <div class="thumbnail"><a href="./poems/cobra.html" class="no-external-icon">
 
-<p class="card-img-top"><img loading='lazy' src="poems/images/r1_cobra_map_hint.png" alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple" style="height: 0;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./poems/images/r1_cobra_thumb.jpg" class="thumbnail-image" style="height: 150px;">
 
 </a></div>
 <div class="body">
