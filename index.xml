@@ -6,15 +6,22 @@
       version="2.0">
 <channel>
 <title>Sandstone Sonnets</title>
-<link>https://thomascwells.com/sandstonesonnets/</link>
-<atom:link href="https://thomascwells.com/sandstonesonnets/index.xml" rel="self" type="application/rss+xml"/>
-<description></description>
-<generator>quarto-1.10.19</generator>
+<link>https://sandstonesonnets.com/</link>
+<atom:link href="https://sandstonesonnets.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>Short, fun poems about rock formations on the trails around Fruita, Colorado. A scavenger hunt for hikers.</description>
+<image>
+<url>https://sandstonesonnets.com/poems/images/share.jpg</url>
+<title>Sandstone Sonnets</title>
+<link>https://sandstonesonnets.com/</link>
+<height>144</height>
+<width>144</width>
+</image>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Pollock’s Backside</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/pollocks-backside.html</link>
+  <link>https://sandstonesonnets.com/poems/pollocks-backside.html</link>
   <description><![CDATA[ 
 
 
@@ -71,7 +78,7 @@ Just waiting for you on Pollock’s backside.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.14309%2C-108.80475%3B39.14056%2C-108.80467#map=17/39.14174/-108.80261&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/p1_backside_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.14309%2C-108.80475%3B39.14056%2C-108.80467#map=17/39.14174/-108.80261&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/p1_backside_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Pollock Canyon trail P1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click the map for an interactive view.</figcaption>
 </figure>
 </div>
@@ -92,7 +99,7 @@ Just waiting for you on Pollock’s backside.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/p1_backside_hint.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/p1_backside_hint.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Can you find this area?</figcaption>
 </figure>
 </div>
@@ -107,11 +114,11 @@ Just waiting for you on Pollock’s backside.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/p1_backside_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/p1_backside_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/p1_backside_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/p1_backside_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a rock formation that looks like two plump butt cheeks, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.14136, -108.80566</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.14136&amp;mlon=-108.80566&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/p1_backside_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.14136&amp;mlon=-108.80566&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/p1_backside_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click map for interactive view</figcaption>
 </figure>
 </div>
@@ -119,24 +126,23 @@ Just waiting for you on Pollock’s backside.</p>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>pollock canyon</category>
   <category>P1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/pollocks-backside.html</guid>
+  <guid>https://sandstonesonnets.com/poems/pollocks-backside.html</guid>
   <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Dragon Dreams</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/dragon.html</link>
+  <link>https://sandstonesonnets.com/poems/dragon.html</link>
   <description><![CDATA[ 
 
 
@@ -193,7 +199,7 @@ A dragon whose waiting has only begun.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.12921%2C-108.74373%3B39.126374%2C-108.744156#map=17/39.128147/-108.743727&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/k1_dragon_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.12921%2C-108.74373%3B39.126374%2C-108.744156#map=17/39.128147/-108.743727&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/k1_dragon_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Kodel's Canyon trail K1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -214,7 +220,7 @@ A dragon whose waiting has only begun.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/k1_dragon_hint.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/k1_dragon_hint.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Can you find this area?</figcaption>
 </figure>
 </div>
@@ -229,35 +235,34 @@ A dragon whose waiting has only begun.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/k1_dragon_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/k1_dragon_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/k1_dragon_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/k1_dragon_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a large rock formation shaped like a sleeping dragon, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.12734, -108.74400</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.12734&amp;mlon=-108.74400&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/k1_dragon_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.12734&amp;mlon=-108.74400&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/k1_dragon_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>kodel&#39;s canyon</category>
   <category>K1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/dragon.html</guid>
+  <guid>https://sandstonesonnets.com/poems/dragon.html</guid>
   <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Sentinel</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/eagle.html</link>
+  <link>https://sandstonesonnets.com/poems/eagle.html</link>
   <description><![CDATA[ 
 
 
@@ -314,7 +319,7 @@ Is stone-still but putting on quite a show.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.149156%2C-108.807234%3B39.148081%2C-108.807776#map=17/39.148921/-108.808406&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_eagle_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.149156%2C-108.807234%3B39.148081%2C-108.807776#map=17/39.148921/-108.808406&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/r1_eagle_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -335,7 +340,7 @@ Is stone-still but putting on quite a show.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_eagle_hint.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/r1_eagle_hint.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Can you find this area?</figcaption>
 </figure>
 </div>
@@ -350,35 +355,34 @@ Is stone-still but putting on quite a show.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/r1_eagle_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_eagle_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/r1_eagle_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/r1_eagle_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a rock shaped like an eagle standing above the canyon, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.14879, -108.80768</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.14879&amp;mlon=-108.80768&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_eagle_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.14879&amp;mlon=-108.80768&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/r1_eagle_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>rattlesnake arches</category>
   <category>R1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/eagle.html</guid>
+  <guid>https://sandstonesonnets.com/poems/eagle.html</guid>
   <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Sneering Snail</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/snail.html</link>
+  <link>https://sandstonesonnets.com/poems/snail.html</link>
   <description><![CDATA[ 
 
 
@@ -439,7 +443,7 @@ He’s quite a cranky sight to see.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.147783%2C-108.851404%3B39.147257%2C-108.852805#map=18/39.147119/-108.851514&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_snail_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.147783%2C-108.851404%3B39.147257%2C-108.852805#map=18/39.147119/-108.851514&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/r1_snail_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -460,7 +464,7 @@ He’s quite a cranky sight to see.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_snail_hint.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/r1_snail_hint.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Can you find this area?</figcaption>
 </figure>
 </div>
@@ -475,35 +479,34 @@ He’s quite a cranky sight to see.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/r1_snail_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_snail_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/r1_snail_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/r1_snail_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a rock shaped like a snail glaring out with narrowed eyes, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.14879, -108.80768</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?to=39.14780%2C+-108.85228#map=18/39.147153/-108.851729&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_snail_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?to=39.14780%2C+-108.85228#map=18/39.147153/-108.851729&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/r1_snail_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>rattlesnake arches</category>
   <category>R1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/snail.html</guid>
+  <guid>https://sandstonesonnets.com/poems/snail.html</guid>
   <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Kissy Face Emoji</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/kissy-face.html</link>
+  <link>https://sandstonesonnets.com/poems/kissy-face.html</link>
   <description><![CDATA[ 
 
 
@@ -556,7 +559,7 @@ And let your happy spirits fly.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.132308%2C-108.764294%3B39.135494%2C-108.768554#map=17/39.134280/-108.766773&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_kiss_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.132308%2C-108.764294%3B39.135494%2C-108.768554#map=17/39.134280/-108.766773&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/r1_kiss_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -577,7 +580,7 @@ And let your happy spirits fly.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_kiss_hint.jpg" class="img-blur1 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/r1_kiss_hint.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Can you find this area?</figcaption>
 </figure>
 </div>
@@ -592,35 +595,34 @@ And let your happy spirits fly.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/r1_kiss_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_kiss_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/r1_kiss_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/r1_kiss_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a rock that looks like a kissy-face emoji, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.14691, -108.84625</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.14691&amp;mlon=-108.84625&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_kiss_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.14691&amp;mlon=-108.84625&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/r1_kiss_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>rattlesnake arches</category>
   <category>R1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/kissy-face.html</guid>
+  <guid>https://sandstonesonnets.com/poems/kissy-face.html</guid>
   <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Cobra Canyon</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/cobra.html</link>
+  <link>https://sandstonesonnets.com/poems/cobra.html</link>
   <description><![CDATA[ 
 
 
@@ -677,7 +679,7 @@ Just ancient grains of sand, unsung.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.145108%2C-108.850423%3B39.144107%2C-108.848398#map=18/39.144615/-108.849400&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_cobra_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.145108%2C-108.850423%3B39.144107%2C-108.848398#map=18/39.144615/-108.849400&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/r1_cobra_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Rattlesnake Arches trail R1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -698,7 +700,7 @@ Just ancient grains of sand, unsung.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_cobra_hint.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/r1_cobra_hint.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Can you find this area?</figcaption>
 </figure>
 </div>
@@ -713,35 +715,34 @@ Just ancient grains of sand, unsung.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/r1_cobra_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_cobra_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/r1_cobra_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/r1_cobra_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a rock shaped like a cobra with its head raised high, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.14444, -108.84980</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?to=39.14444%2C+-108.84980#map=19/39.144453/-108.849656&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/r1_cobra_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?to=39.14444%2C+-108.84980#map=19/39.144453/-108.849656&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/r1_cobra_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>rattlesnake arches</category>
   <category>R1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/cobra.html</guid>
+  <guid>https://sandstonesonnets.com/poems/cobra.html</guid>
   <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Timeless Lookout</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/timeless-lookout.html</link>
+  <link>https://sandstonesonnets.com/poems/timeless-lookout.html</link>
   <description><![CDATA[ 
 
 
@@ -798,7 +799,7 @@ All the stories of what was and what will be.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.128009%2C-108.751747%3B39.126603%2C-108.752627#map=18/39.127114/-108.751693&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/k12_eyes_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.128009%2C-108.751747%3B39.126603%2C-108.752627#map=18/39.127114/-108.751693&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/k12_eyes_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Kodel's Canyon trail K12 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -819,7 +820,7 @@ All the stories of what was and what will be.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/k12_eyes_hint.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/k12_eyes_hint.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Do you see the an area like this?</figcaption>
 </figure>
 </div>
@@ -834,35 +835,34 @@ All the stories of what was and what will be.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/k12_eyes_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/k12_eyes_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/k12_eyes_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/k12_eyes_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: two eye shapes carved into the sandstone, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.12700, -108.75244</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.12700&amp;mlon=-108.75244&amp;zoom=19#map=18/39.126856/-108.752069&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/k12_eyes_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.12700&amp;mlon=-108.75244&amp;zoom=19#map=18/39.126856/-108.752069&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/k12_eyes_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>kodel&#39;s canyon</category>
   <category>K12</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/timeless-lookout.html</guid>
+  <guid>https://sandstonesonnets.com/poems/timeless-lookout.html</guid>
   <pubDate>Sun, 23 Nov 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Elephant Seal</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/elephant-seal.html</link>
+  <link>https://sandstonesonnets.com/poems/elephant-seal.html</link>
   <description><![CDATA[ 
 
 
@@ -919,7 +919,7 @@ In case that seal has an appetite!</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=18/39.100442/-108.707367&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/monument_seal_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.100026%2C-108.707174%3B39.100917%2C-108.709432#map=18/39.100442/-108.707367&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/monument_seal_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of the Monument Canyon trail with the section to search highlighted in purple"></a></p>
 <figcaption>You’ll find this rock formation along the Monument Canyon trail. It is located somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -940,7 +940,7 @@ In case that seal has an appetite!</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/monument_seal_answer.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/monument_seal_answer.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Can you find an area that looks like this? For the best elephant seal angle, walk just past the rock and then turn around to look back at it.</figcaption>
 </figure>
 </div>
@@ -955,35 +955,34 @@ In case that seal has an appetite!</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/monument_seal_answer_annotated2.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/monument_seal_answer_annotated2.jpg" class="img-fluid"></a></p>
+<p><a href="images/monument_seal_answer_annotated2.jpg"><img src="https://sandstonesonnets.com/poems/images/monument_seal_answer_annotated2.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a rock shaped like the profile of an elephant seal with its mouth wide open, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.10077, -108.70906</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.10077&amp;mlon=-108.70906&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/monument_seal_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.10077&amp;mlon=-108.70906&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/monument_seal_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>national monument</category>
   <category>monument canyon</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/elephant-seal.html</guid>
+  <guid>https://sandstonesonnets.com/poems/elephant-seal.html</guid>
   <pubDate>Sun, 19 Oct 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Desert Shipwreck</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/desert-shipwreck.html</link>
+  <link>https://sandstonesonnets.com/poems/desert-shipwreck.html</link>
   <description><![CDATA[ 
 
 
@@ -1040,7 +1039,7 @@ A whale sunk that ship right here!</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.152328%2C-108.781096%3B39.150329%2C-108.781525#map=18/39.151345/-108.781407&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_shipwreck_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.152328%2C-108.781096%3B39.150329%2C-108.781525#map=18/39.151345/-108.781407&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/f1_shipwreck_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -1061,7 +1060,7 @@ A whale sunk that ship right here!</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_shipwreck_answer.jpg" class="img-blur3 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/f1_shipwreck_answer.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. See anything that looks like this?</figcaption>
 </figure>
 </div>
@@ -1076,35 +1075,34 @@ A whale sunk that ship right here!</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/f1_shipwreck_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_shipwreck_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/f1_shipwreck_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/f1_shipwreck_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: two rocks, one like a whale breaching the water and one like a sinking ship, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.15177, -108.78165</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.15177&amp;mlon=-108.78165&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_shipwreck_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.15177&amp;mlon=-108.78165&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/f1_shipwreck_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>flume canyon</category>
   <category>F1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/desert-shipwreck.html</guid>
+  <guid>https://sandstonesonnets.com/poems/desert-shipwreck.html</guid>
   <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Guardian of the Flume</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/guardian-of-the-flume.html</link>
+  <link>https://sandstonesonnets.com/poems/guardian-of-the-flume.html</link>
   <description><![CDATA[ 
 
 
@@ -1161,7 +1159,7 @@ Of the timbered ghost the floods have stayed.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.141395%2C-108.785441%3B39.142959%2C-108.784003#map=16/39.14547/-108.78106&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_guardian_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.141395%2C-108.785441%3B39.142959%2C-108.784003#map=16/39.14547/-108.78106&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/f1_guardian_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -1182,7 +1180,7 @@ Of the timbered ghost the floods have stayed.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_guardian_answer.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/f1_guardian_answer.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. See anything that looks like this?</figcaption>
 </figure>
 </div>
@@ -1197,35 +1195,34 @@ Of the timbered ghost the floods have stayed.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/f1_guardian_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_guardian_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/f1_guardian_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/f1_guardian_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a driftwood log shaped like an alligator, tucked into a ledge in the canyon wall, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.142294, -108.784531</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.142294&amp;mlon=-108.784531&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_guardian_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.142294&amp;mlon=-108.784531&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/f1_guardian_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>flume canyon</category>
   <category>F1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/guardian-of-the-flume.html</guid>
+  <guid>https://sandstonesonnets.com/poems/guardian-of-the-flume.html</guid>
   <pubDate>Sat, 20 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Patina Portrait</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/patina-portrait.html</link>
+  <link>https://sandstonesonnets.com/poems/patina-portrait.html</link>
   <description><![CDATA[ 
 
 
@@ -1282,7 +1279,7 @@ A patinaed figure from yesteryear.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.14727%2C-108.78267%3B39.14963%2C-108.78177#map=17/39.148941/-108.781600&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_portrait_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.14727%2C-108.78267%3B39.14963%2C-108.78177#map=17/39.148941/-108.781600&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/f1_portrait_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -1303,7 +1300,7 @@ A patinaed figure from yesteryear.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_portrait_answer.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/f1_portrait_answer.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Can you find anything that looks like this?</figcaption>
 </figure>
 </div>
@@ -1318,35 +1315,34 @@ A patinaed figure from yesteryear.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/f1_portrait_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_portrait_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/f1_portrait_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/f1_portrait_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: dark varnish on the sandstone that looks like a portrait of someone from the Old West, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.148763, -108.781902</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.148763&amp;mlon=-108.781902&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/f1_portrait_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.148763&amp;mlon=-108.781902&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/f1_portrait_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>flume canyon</category>
   <category>F1</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/patina-portrait.html</guid>
+  <guid>https://sandstonesonnets.com/poems/patina-portrait.html</guid>
   <pubDate>Tue, 16 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Fruita’s Dapper Duck</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/dapper-duck.html</link>
+  <link>https://sandstonesonnets.com/poems/dapper-duck.html</link>
   <description><![CDATA[ 
 
 
@@ -1407,7 +1403,7 @@ Is Fruita’s duck, the one in the hat.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.132308%2C-108.764294%3B39.135494%2C-108.768554#map=17/39.134280/-108.766773&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_duck_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.132308%2C-108.764294%3B39.135494%2C-108.768554#map=17/39.134280/-108.766773&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/d4_duck_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Devil's Canyon trail D4 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -1428,7 +1424,7 @@ Is Fruita’s duck, the one in the hat.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_duck_hint.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/d4_duck_hint.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Can you find this area?</figcaption>
 </figure>
 </div>
@@ -1443,35 +1439,34 @@ Is Fruita’s duck, the one in the hat.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/d4_duck_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_duck_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/d4_duck_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/d4_duck_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a rock shaped like a duck wearing a hat, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.13370, -108.76602</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.13370&amp;mlon=-108.76602&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_duck_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.13370&amp;mlon=-108.76602&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/d4_duck_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>devil&#39;s canyon</category>
   <category>D4</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/dapper-duck.html</guid>
+  <guid>https://sandstonesonnets.com/poems/dapper-duck.html</guid>
   <pubDate>Sun, 14 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Canyon’s Secret Grin</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/canyon-secret-grin.html</link>
+  <link>https://sandstonesonnets.com/poems/canyon-secret-grin.html</link>
   <description><![CDATA[ 
 
 
@@ -1528,7 +1523,7 @@ The canyon’s smiling after all!</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.134421%2C-108.77071%3B39.134654%2C-108.770828#map=19/39.134194/-108.771829&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/d4_grin_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Devil's Canyon trail D4 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature is located in the loop section of the D4 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -1549,7 +1544,7 @@ The canyon’s smiling after all!</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_answer.jpg" class="img-blur3 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/d4_grin_answer.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. See anything that looks like this?</figcaption>
 </figure>
 </div>
@@ -1566,38 +1561,37 @@ The canyon’s smiling after all!</p>
 <div class="callout-body-container">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/d4_grin_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_answer_annotated.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="images/d4_grin_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/d4_grin_answer_annotated.jpg" class="img-fluid figure-img" loading="lazy" alt="Answer photo: a big smile carved into the sandstone, marked on the photo"></a></p>
 <figcaption>Smile!</figcaption>
 </figure>
 </div>
 <p>GPS coordinates of this photo: 39.133733, -108.772557</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.133733&amp;mlon=-108.772557&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_grin_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.133733&amp;mlon=-108.772557&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/d4_grin_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>devil&#39;s canyon</category>
   <category>D4</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/canyon-secret-grin.html</guid>
+  <guid>https://sandstonesonnets.com/poems/canyon-secret-grin.html</guid>
   <pubDate>Sun, 14 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Red Rock Fury</title>
   <dc:creator>Rudy </dc:creator>
-  <link>https://thomascwells.com/sandstonesonnets/poems/red-rock-fury.html</link>
+  <link>https://sandstonesonnets.com/poems/red-rock-fury.html</link>
   <description><![CDATA[ 
 
 
@@ -1654,7 +1648,7 @@ Now etched by time in a desert scene.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.135903%2C-108.769026%3B39.13671%2C-108.76673#map=17/39.136077/-108.767341&amp;layers=P"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_fury_map_hint.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.135903%2C-108.769026%3B39.13671%2C-108.76673#map=17/39.136077/-108.767341&amp;layers=P"><img src="https://sandstonesonnets.com/poems/images/d4_fury_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Devil's Canyon trail D4 with the section to search highlighted in purple"></a></p>
 <figcaption>This feature can be found somewhere along the section of trail highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -1675,7 +1669,7 @@ Now etched by time in a desert scene.</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_fury_answer.jpg" class="img-blur2 img-fluid figure-img"></p>
+<p><img src="https://sandstonesonnets.com/poems/images/d4_fury_answer.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. Do you see the bird?</figcaption>
 </figure>
 </div>
@@ -1690,29 +1684,28 @@ Now etched by time in a desert scene.</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/d4_fury_answer_annotated.jpg"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_fury_answer_annotated.jpg" class="img-fluid"></a></p>
+<p><a href="images/d4_fury_answer_annotated.jpg"><img src="https://sandstonesonnets.com/poems/images/d4_fury_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: a rock that looks like an angry cartoon bird, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.13653, -108.76928</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.13653&amp;mlon=-108.76928&amp;zoom=19"><img src="https://thomascwells.com/sandstonesonnets/poems/images/d4_fury_map.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=39.13653&amp;mlon=-108.76928&amp;zoom=19"><img src="https://sandstonesonnets.com/poems/images/d4_fury_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 
 
-</div>
-</div>
-</div>
 
  ]]></description>
   <category>fruita</category>
-  <category>poems</category>
   <category>devil&#39;s canyon</category>
   <category>D4</category>
-  <guid>https://thomascwells.com/sandstonesonnets/poems/red-rock-fury.html</guid>
+  <guid>https://sandstonesonnets.com/poems/red-rock-fury.html</guid>
   <pubDate>Sun, 14 Sep 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
