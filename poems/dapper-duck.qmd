@@ -1,6 +1,7 @@
 ---
 title: "Fruita's Dapper Duck"
 subtitle: "D4 #1"
+image: "images/d4_duck_thumb.jpg"
 description: "What's that - a hat?"
 author: "Rudy"
 date: "2025-09-14"

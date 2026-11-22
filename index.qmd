@@ -9,7 +9,7 @@ listing:
   type: default
   categories: unnumbered
   feed: true
-  image-height: "0"
+  image-height: "150px"
 ---
 
 ## What is this?
@@ -25,21 +25,53 @@ Know a rock that deserves a poem? [Submit it here!](mailto:mail@sandstonesonnets
 Now it's time to pack your imagination and hit the trails! 
 
 ## Trailhead filters
-*Selecting a location will filter the list of poems below.*
+*Tap a trailhead or trail to filter the poems below.*
 
-- [All](/)
-- [Devil's Canyon](/#category=devil's%20canyon)
-  - [D4](/#category=D4)
-- [Flume Canyon](/#category=flume%20canyon)
-  - [F1](/#category=F1)
-- [Kodel's Canyon](/#category=kodel's%20canyon)
-  - [K1](/#category=K1)
-  - [K12](/#category=K12)
-- [Pollock Canyon](/#category=pollock%20canyon)
-  - [P1](/#category=P1)
-- [Colorado National Monument](/#category=national%20monument)
-  - [Monument Canyon](/#category=monument%20canyon)
-- [Rattlesnake Arches](/#category=rattlesnake%20arches)
-  - [R1](/#category=R1)
+::: {.trail-picker}
+[All poems](/){.trail-chip}
+
+[Devil's Canyon](/#category=devil's%20canyon){.trail-area} [D4](/#category=D4){.trail-chip}
+
+[Flume Canyon](/#category=flume%20canyon){.trail-area} [F1](/#category=F1){.trail-chip}
+
+[Kodel's Canyon](/#category=kodel's%20canyon){.trail-area} [K1](/#category=K1){.trail-chip} [K12](/#category=K12){.trail-chip}
+
+[Pollock Canyon](/#category=pollock%20canyon){.trail-area} [P1](/#category=P1){.trail-chip}
+
+[Colorado National Monument](/#category=national%20monument){.trail-area} [Monument Canyon](/#category=monument%20canyon){.trail-chip}
+
+[Rattlesnake Arches](/#category=rattlesnake%20arches){.trail-area} [R1](/#category=R1){.trail-chip}
+:::
+
+```{=html}
+<script>
+// Highlight the trail chip that matches the current filter.
+function markActiveTrail() {
+  var current = decodeURIComponent(location.hash || "");
+  document.querySelectorAll(".trail-picker a").forEach(function (a) {
+    var hash = decodeURIComponent(new URL(a.href).hash);
+    a.classList.toggle("active", hash === current);
+  });
+}
+window.addEventListener("hashchange", markActiveTrail);
+document.addEventListener("DOMContentLoaded", markActiveTrail);
+
+// Add a "New" badge to poems published in the last NEW_DAYS days.
+var NEW_DAYS = 60;
+document.addEventListener("DOMContentLoaded", function () {
+  var cutoff = Date.now() - NEW_DAYS * 24 * 60 * 60 * 1000;
+  document.querySelectorAll(".quarto-post[data-listing-date-sort]").forEach(function (post) {
+    var date = Number(post.getAttribute("data-listing-date-sort"));
+    var title = post.querySelector(".listing-title");
+    if (date > cutoff && title) {
+      var badge = document.createElement("span");
+      badge.className = "new-badge";
+      badge.textContent = "New";
+      title.appendChild(badge);
+    }
+  });
+});
+</script>
+```
 
 ## Poems

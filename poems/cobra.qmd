@@ -1,6 +1,7 @@
 ---
 title: "Cobra Canyon"
 subtitle: "R1 #4"
+image: "images/r1_cobra_thumb.jpg"
 description: "But I thought this was rattlesnake canyon?"
 author: "Rudy"
 date: "2026-03-24"

@@ -1,6 +1,7 @@
 ---
 title: "Desert Shipwreck"
 subtitle: "F1 #1"
+image: "images/f1_shipwreck_thumb.jpg"
 description: "When the canyon held the sea"
 author: "Rudy"
 date: "2025-09-28"

@@ -1,6 +1,7 @@
 ---
 title: "The Sentinel"
 subtitle: "R1 #1"
+image: "images/r1_eagle_thumb.jpg"
 description: "A regal eagle"
 author: "Rudy"
 date: "2026-03-25"

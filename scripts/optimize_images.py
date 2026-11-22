@@ -13,6 +13,9 @@ What it does (safe to run repeatedly; already-processed files are skipped):
   are blurred in the file itself (so the sharp original can't be opened
   from the browser), and the blur class is removed from the poem.
 * Map screenshots (.png) are reduced to a 256-colour palette.
+* Each poem's hint map (*_map_hint.png) gets a small homepage thumbnail
+  (*_thumb.jpg) cropped around the purple trail section, and the poem's
+  front matter gets an `image:` line pointing to it.
 """
 
 import re
@@ -32,6 +35,8 @@ BLUR_PER_LEVEL = 2.5    # Gaussian radius (px at MAX_HINT) per img-blurN level
 
 IMG_REF = re.compile(r"(!\[[^\]]*\]\(images/([^)\s]+)\))(\{[^}]*\})?")
 BLUR_CLASS = re.compile(r"\.img-blur(\d)")
+
+THUMB_SIZE = (450, 300)  # 3:2, matches the homepage card thumbnail
 
 
 def read(path):
@@ -86,6 +91,88 @@ def bake_blurs():
     return blurred
 
 
+def route_box(im):
+    """Bounding box of the largest patch of purple route in a map screenshot."""
+    w, h = im.size
+    px = im.load()
+    mask = Image.new("L", (w, h), 0)
+    mp = mask.load()
+    for y in range(h):
+        for x in range(w):
+            r, g, b = px[x, y]
+            if b - g > 45 and abs(r - g) < 45 and b > 150:
+                mp[x, y] = 255
+    mp = mask.filter(ImageFilter.MaxFilter(5)).load()
+
+    seen = bytearray(w * h)
+    best = None
+    for y0 in range(h):
+        for x0 in range(w):
+            if not mp[x0, y0] or seen[y0 * w + x0]:
+                continue
+            stack, size = [(x0, y0)], 0
+            seen[y0 * w + x0] = 1
+            box = [x0, y0, x0, y0]
+            while stack:
+                x, y = stack.pop()
+                size += 1
+                box = [min(box[0], x), min(box[1], y),
+                       max(box[2], x), max(box[3], y)]
+                for a, b in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+                    inside = 0 <= a < w and 0 <= b < h
+                    if inside and mp[a, b] and not seen[b * w + a]:
+                        seen[b * w + a] = 1
+                        stack.append((a, b))
+            if best is None or size > best[0]:
+                best = (size, box)
+    return best[1] if best else None
+
+
+def make_thumb(map_path, thumb_path):
+    im = Image.open(map_path).convert("RGB")
+    W, H = im.size
+    box = route_box(im) or [0, 0, W - 1, H - 1]
+    cx, cy = (box[0] + box[2]) / 2, (box[1] + box[3]) / 2
+    # Pad around the route (room for the start/end pins and some landmarks),
+    # never zoom in further than half the map, then widen to 3:2.
+    bw = max((box[2] - box[0]) * 1.5 + 80, W * 0.5)
+    bh = max((box[3] - box[1]) * 1.5 + 80, H * 0.4)
+    ratio = THUMB_SIZE[0] / THUMB_SIZE[1]
+    bw, bh = max(bw, bh * ratio), max(bh, bw / ratio)
+    # Keep the crop inside the map where possible; if it is bigger than the
+    # map, the extra is filled with the map's background colour.
+    left = min(max(cx - bw / 2, 0), max(W - bw, 0)) if bw <= W else cx - bw / 2
+    top = min(max(cy - bh / 2, 0), max(H - bh, 0)) if bh <= H else cy - bh / 2
+    bg = max(im.getcolors(W * H))[1]  # most common colour = map background
+    canvas = Image.new("RGB", (round(bw), round(bh)), bg)
+    canvas.paste(im, (round(-left), round(-top)))
+    canvas.resize(THUMB_SIZE, Image.LANCZOS).save(
+        thumb_path, "JPEG", quality=82, optimize=True)
+
+
+def make_thumbs():
+    for qmd in sorted(POEMS.glob("*.qmd")):
+        text = read(qmd)
+        m = re.search(r"\(images/([\w-]+)_map_hint\.png\)", text)
+        if not m:
+            continue
+        map_path = IMAGES / f"{m.group(1)}_map_hint.png"
+        thumb_path = IMAGES / f"{m.group(1)}_thumb.jpg"
+        stale = (not thumb_path.exists() or
+                 thumb_path.stat().st_mtime < map_path.stat().st_mtime)
+        if stale:
+            make_thumb(map_path, thumb_path)
+            print(f"  thumbnail {thumb_path.name}")
+        if not re.search(r"^image:", text, re.M):
+            nl = "\r\n" if "\r\n" in text else "\n"
+            text = re.sub(r"^(subtitle:[^\r\n]*)",
+                          lambda s: s.group(1) + nl
+                          + f'image: "images/{thumb_path.name}"',
+                          text, count=1, flags=re.M)
+            qmd.write_bytes(text.encode("utf-8"))
+            print(f"  linked {thumb_path.name} in {qmd.name}")
+
+
 def main():
     before = sum(p.stat().st_size for p in IMAGES.iterdir() if p.is_file())
     skip = bake_blurs()
@@ -106,6 +193,8 @@ def main():
         im = im.convert("RGBA").quantize(256, method=Image.Quantize.FASTOCTREE)
         im.save(path, optimize=True)
         print(f"  compressed {path.name}")
+
+    make_thumbs()
 
     after = sum(p.stat().st_size for p in IMAGES.iterdir() if p.is_file())
     print(f"images: {before / 1e6:.1f} MB -> {after / 1e6:.1f} MB")

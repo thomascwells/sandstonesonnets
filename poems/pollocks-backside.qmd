@@ -1,6 +1,7 @@
 ---
 title: "Pollock's Backside"
 subtitle: "P1 #1"
+image: "images/p1_backside_thumb.jpg"
 description: "The moon is out"
 author: "Rudy"
 date: "2026-10-08"
