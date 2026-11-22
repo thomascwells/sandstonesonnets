@@ -16,13 +16,16 @@ What it does (safe to run repeatedly; already-processed files are skipped):
 * Each poem's hint map (*_map_hint.png) gets a small homepage thumbnail
   (*_thumb.jpg) cropped around the purple trail section, and the poem's
   front matter gets an `image:` line pointing to it.
+* The site logo, favicon, link-preview image and app icons are all made
+  from one master image, brand/logo_master.png. To change the logo, replace
+  that file (and LOGO_CIRCLE below if the circle moves) and run the script.
 """
 
 import re
 import sys
 from pathlib import Path
 
-from PIL import Image, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
 POEMS = ROOT / "poems"
@@ -37,6 +40,45 @@ IMG_REF = re.compile(r"(!\[[^\]]*\]\(images/([^)\s]+)\))(\{[^}]*\})?")
 BLUR_CLASS = re.compile(r"\.img-blur(\d)")
 
 THUMB_SIZE = (450, 300)  # 3:2, matches the homepage card thumbnail
+
+LOGO_MASTER = ROOT / "brand" / "logo_master.png"
+LOGO_CIRCLE = (522, 489, 421)  # centre x, centre y, radius in the master
+
+
+def logo_assets():
+    """Make every logo-derived image from the master, if it has changed."""
+    if not LOGO_MASTER.exists():
+        return
+    src = Image.open(LOGO_MASTER).convert("RGB")
+    cx, cy, r = LOGO_CIRCLE
+
+    # Circular logo with a transparent background (navbar, favicon)
+    scale = 4
+    mask = Image.new("L", (src.width * scale, src.height * scale), 0)
+    ImageDraw.Draw(mask).ellipse(
+        [(cx - r) * scale, (cy - r) * scale, (cx + r) * scale, (cy + r) * scale],
+        fill=255)
+    circle = src.convert("RGBA")
+    circle.putalpha(mask.resize(src.size, Image.LANCZOS))
+    circle = circle.crop((cx - r, cy - r, cx + r, cy + r))
+
+    # Square with the logo's own background (link previews, app icons;
+    # iPhones show transparent icon corners as black)
+    pad = r + 12
+    square = src.crop((cx - pad, cy - pad, cx + pad, cy + pad))
+
+    outputs = {
+        "logo.webp": lambda p: circle.resize((400, 400), Image.LANCZOS).save(p, quality=85),
+        "favicon.png": lambda p: circle.resize((64, 64), Image.LANCZOS).save(p, optimize=True),
+        "share.jpg": lambda p: square.resize((600, 600), Image.LANCZOS).save(p, quality=85, optimize=True),
+        "icon-192.png": lambda p: square.resize((192, 192), Image.LANCZOS).save(p, optimize=True),
+        "icon-512.png": lambda p: square.resize((512, 512), Image.LANCZOS).save(p, optimize=True),
+    }
+    for name, save in outputs.items():
+        path = IMAGES / name
+        if not path.exists() or path.stat().st_mtime < LOGO_MASTER.stat().st_mtime:
+            save(path)
+            print(f"  logo {name}")
 
 
 def read(path):
@@ -175,6 +217,7 @@ def make_thumbs():
 
 def main():
     before = sum(p.stat().st_size for p in IMAGES.iterdir() if p.is_file())
+    logo_assets()
     skip = bake_blurs()
 
     for path in sorted(IMAGES.glob("*.jpg")):
@@ -187,6 +230,8 @@ def main():
         print(f"  resized {path.name}")
 
     for path in sorted(IMAGES.glob("*.png")):
+        if path.name.startswith("icon-"):
+            continue  # app icons keep full colour
         im = Image.open(path)
         if im.mode == "P":
             continue

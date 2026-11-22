@@ -7,6 +7,11 @@ project:
   resources:
     - "files/**"
     - "poems/images/share.jpg"
+    - "pwa/offline.js"
+    - "poems/images/icon-*.png"
+
+  # Makes the site installable and usable offline (see pwa/build_offline.py)
+  post-render: pwa/build_offline.py
 
 freeze: auto
 
@@ -54,6 +59,7 @@ format:
     toc: false
 #    highlight-style: monokai
     css: styles.css
+    include-in-header: pwa/head.html
 
 filters:
   - lazy-images.lua

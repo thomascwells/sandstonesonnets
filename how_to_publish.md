@@ -80,3 +80,11 @@ After the initial publish is configured, any edits you make to the files in the 
 
 You can either make edits in your desktop IDE, then commit and push those changes, or you can make edits directly to the files in github through the browser
 
+
+# Offline app
+
+The site works offline and can be installed on a phone's home screen. Nothing needs updating by hand: after every render (local or on GitHub), `pwa/build_offline.py` reads the built site and writes `manifest.webmanifest` (app name, description, colour, icons) and `sw.js` (the offline helper, with the list of every file to save). New poems and images are included automatically, and visitors' phones download only what changed.
+
+- The app name and description come from `website.title` and `website.description` in `_quarto.yml`; the colour comes from the theme.
+- App icons, the navbar logo, favicon and link-preview image are all made from `brand/logo_master.png` by `scripts/optimize_images.py`.
+- While running `quarto preview`, offline mode is switched off so you always see fresh pages. To test it locally, open any page with `?offline-test` added to the address (and `?offline-test=off` to switch it off again), then turn off the network in the browser's developer tools.
