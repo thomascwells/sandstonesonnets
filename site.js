@@ -98,7 +98,35 @@
   }
   window.addEventListener("hashchange", openLinkedSection);
 
+  // Quarto's collapsible hint boxes can only be opened with a mouse or touch,
+  // and screen readers call each one "Toggle callout". Make each header a
+  // real button: reachable with Tab, opened with Enter or Space, and read
+  // out by its title ("Hint #1: ...").
+  function makeHintsAccessible() {
+    document.querySelectorAll('.callout-header[data-bs-toggle="collapse"]').forEach(function (header) {
+      header.setAttribute("role", "button");
+      header.setAttribute("tabindex", "0");
+      header.removeAttribute("aria-label");
+      header.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          header.click();
+        }
+      });
+    });
+  }
+
+  // Homepage: the map thumbnails sit beside the poem title, so screen
+  // readers should skip them (Quarto leaves out the alt text entirely).
+  function markThumbnailsDecorative() {
+    document.querySelectorAll(".quarto-post img:not([alt])").forEach(function (img) {
+      img.setAttribute("alt", "");
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    makeHintsAccessible();
+    markThumbnailsDecorative();
     openLinkedSection();
     var tools = document.querySelector(".poem-tools");
     if (tools) {

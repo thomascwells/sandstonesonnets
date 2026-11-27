@@ -314,3 +314,9 @@
 .collapsible-section > summary:hover {
   color: var(--bs-primary);
 }
+
+/* Keyboard users: show which hint box is selected (made a button by site.js) */
+.callout-header[role="button"]:focus-visible {
+  outline: 3px solid var(--bs-primary);
+  outline-offset: 2px;
+}
