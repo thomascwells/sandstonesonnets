@@ -18,14 +18,14 @@ Found it? Tap **I found it!** at the bottom of the poem to keep track. Poems you
 
 ### Can I use this website without cell service? {#offline}
 
-Yes! Open the website once while you have signal (at home on Wi-Fi is best), and your phone will save every poem, hint and answer. When it's done, you'll see "✓ Saved for offline use" at the bottom of the page. After that, the site works on the trail with no signal. Only the "Click for interactive map" links need a connection.
+Yes! Open the website once while you have signal (at home on wi-fi is best), and your phone will save every poem, hint and answer. When it's done, you'll see "✓ Saved for offline use" at the bottom of the page. After that, the site works on the trail with no signal. Only the "Click for interactive map" links need a connection.
 
 For quick access, you can also add Sandstone Sonnets to your home screen so it opens like an app. Tap the **Install app** (or **Add to Home Screen**) button on the homepage, or:
 
 - **iPhone:** in Safari, tap the Share button, then Add to Home Screen.
 - **Android:** in Chrome, tap the ⋮ menu, then Install app or Add to Home screen.
 
-New poems are saved automatically the next time you open the site with signal.
+New poems are saved automatically the next time you open the site with service.
 
 ### Why are you writing these poems?
 
