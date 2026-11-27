@@ -1,0 +1,24 @@
+{
+  "name": "Sandstone Sonnets",
+  "short_name": "Sandstone Sonnets",
+  "description": "Short, fun poems about rock formations on the trails around Fruita, Colorado. A scavenger hunt for hikers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#158cba",
+  "icons": [
+    {
+      "src": "/poems/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/poems/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ]
+}
