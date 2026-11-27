@@ -273,3 +273,44 @@
 .home #title-block-header .description {
   display: none;
 }
+
+/* Questions that open when tapped (FAQ, see collapsible-sections.lua) */
+.collapsible-section {
+  border-bottom: 1px solid var(--bs-border-color);
+  padding: 0.25rem 0;
+  scroll-margin-top: 5rem; /* keep a linked question clear of the navbar */
+}
+
+.collapsible-section > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--bs-body-color);
+  cursor: pointer;
+  list-style: none;
+}
+
+.collapsible-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+.collapsible-section > summary::after {
+  content: "+";
+  flex: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--bs-primary);
+}
+
+.collapsible-section[open] > summary::after {
+  content: "\2212"; /* minus sign */
+}
+
+.collapsible-section > summary:hover {
+  color: var(--bs-primary);
+}

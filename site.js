@@ -85,7 +85,21 @@
     });
   }
 
+  // Collapsed sections (see collapsible-sections.lua): a link such as
+  // /faq#offline opens that section and scrolls to it.
+  function openLinkedSection() {
+    if (!location.hash) return;
+    var target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    var section = target && target.closest("details");
+    if (section && !section.open) {
+      section.open = true;
+      section.scrollIntoView();
+    }
+  }
+  window.addEventListener("hashchange", openLinkedSection);
+
   document.addEventListener("DOMContentLoaded", function () {
+    openLinkedSection();
     var tools = document.querySelector(".poem-tools");
     if (tools) {
       setUpPoem(tools);

@@ -68,6 +68,7 @@ format:
 filters:
   - images.lua
   - trail-nav.lua
+  - collapsible-sections.lua
 
   
   
