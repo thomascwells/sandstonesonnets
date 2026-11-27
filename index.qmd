@@ -23,7 +23,9 @@ On this page you'll find whimsical poems written about natural features (mostly 
 
 Locals and visitors, young and old. Kids are especially good at this, so parents: be prepared to pack your imagination!  
 
-For more information about how to use the website, check out the [FAQ](/faq) page.   
+For more information about how to use the website, check out the [FAQ](/faq) page.
+
+No cell service on the trail? Open this site once before you go and it will [work offline](/faq#offline).
 
 ## Trailhead filters
 *Tap a trailhead or trail to filter the poems below.*

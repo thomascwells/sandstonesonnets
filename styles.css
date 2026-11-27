@@ -172,3 +172,11 @@
     content: "· ";
   }
 }
+
+/* Offline-saving status in the page footer (added by pwa/offline.js) */
+.offline-status {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--bs-secondary-color);
+  text-align: center;
+}
