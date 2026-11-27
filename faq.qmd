@@ -26,7 +26,7 @@ For quick access, you can also add Sandstone Sonnets to your home screen so it o
 - **iPhone:** in Safari, tap the Share button, then Add to Home Screen.
 - **Android:** in Chrome, tap the ⋮ menu, then Install app or Add to Home screen.
 
-New poems are saved automatically the next time you open the site with service.
+New poems are saved automatically the next time you open the site and have cell service or wi-fi access.
 
 ### Why are you writing these poems?
 
