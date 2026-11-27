@@ -6,7 +6,7 @@
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#158cba",
+  "theme_color": "#0f76a0",
   "icons": [
     {
       "src": "/poems/images/icon-192.png",

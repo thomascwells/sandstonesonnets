@@ -50,7 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3ea1d800871f55dbb394c05fc6e71530.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a0c95920f4634a99c92a506dfc4560d5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -104,6 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="apple-touch-icon" href="./poems/images/icon-192.png">
 <script src="./pwa/offline.js" defer=""></script>
+<script src="./site.js" defer=""></script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
@@ -148,11 +149,11 @@ window.Quarto = {
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+<body class="nav-fixed home quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+    <nav class="navbar navbar-expand " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
@@ -163,11 +164,7 @@ window.Quarto = {
     <span class="navbar-title">Sandstone Sonnets</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+          <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
@@ -177,8 +174,7 @@ window.Quarto = {
 <span class="menu-text">FAQ</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
 </div>
             <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
@@ -189,7 +185,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="./poems/images/logo.webp" class="img-fluid" loading="lazy" alt="Sandstone Sonnets logo"></p>
+<p><img src="./poems/images/logo.webp" class="nolightbox img-fluid" loading="lazy" alt="Sandstone Sonnets logo"></p>
 </div></div>
     </div>
 <!-- main -->
@@ -219,17 +215,12 @@ window.Quarto = {
 </header>
 
 
-<section id="what-is-this" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-this">What is this?</h2>
 <p>Welcome to Sandstone Sonnets! We’re so glad you’re here.</p>
-<p>On this page you’ll find whimsical poems written about natural features (mostly rock formations) in and around Fruita, Colorado. These are a bit like a scavenger hunt. See if you can find the landscape features these poems describe. There are plenty of hints if you need them.</p>
-</section>
-<section id="who-is-it-for" class="level2">
-<h2 class="anchored" data-anchor-id="who-is-it-for">Who is it for?</h2>
-<p>Locals and visitors, young and old. Kids are especially good at this, so parents: be prepared to pack your imagination!</p>
-<p>For more information about how to use the website, check out the <a href="./faq">FAQ</a> page.</p>
+<p>On this page you’ll find short, whimsical poems written about natural features (mostly rock formations) in and around Fruita, Colorado. These are a bit like a scavenger hunt. See if you can find the landscape features these poems describe. There are plenty of hints if you need them. New here? The <a href="./faq">FAQ</a> explains how it works.</p>
 <p>No cell service on the trail? Open this site once before you go and it will <a href="./faq#offline">work offline</a>.</p>
-</section>
+<div id="install-app">
+
+</div>
 <section id="trailhead-filters" class="level2">
 <h2 class="anchored" data-anchor-id="trailhead-filters">Trailhead filters</h2>
 <p><em>Tap a trailhead or trail to filter the poems below.</em></p>
@@ -300,7 +291,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795796278331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
+<div class="quarto-post image-right" data-index="0" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795806555054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
 <div class="thumbnail"><a href="./poems/dapper-duck.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/d4_duck_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -330,7 +321,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795796278330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
+<div class="quarto-post image-right" data-index="1" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795806555053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269">
 <div class="thumbnail"><a href="./poems/canyon-secret-grin.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/d4_grin_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -360,7 +351,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795796278352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="287">
+<div class="quarto-post image-right" data-index="2" data-categories="ZnJ1aXRhJTJDZGV2aWwncyUyMGNhbnlvbiUyQ0Q0" data-listing-date-sort="1757808000000" data-listing-file-modified-sort="1795806555074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="287">
 <div class="thumbnail"><a href="./poems/red-rock-fury.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/d4_fury_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -390,7 +381,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1759017600000" data-listing-file-modified-sort="1795796278331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
+<div class="quarto-post image-right" data-index="3" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1759017600000" data-listing-file-modified-sort="1795806555054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="298">
 <div class="thumbnail"><a href="./poems/desert-shipwreck.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/f1_shipwreck_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -420,7 +411,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1757980800000" data-listing-file-modified-sort="1795796278352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="284">
+<div class="quarto-post image-right" data-index="4" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1757980800000" data-listing-file-modified-sort="1795806555074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="284">
 <div class="thumbnail"><a href="./poems/patina-portrait.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/f1_portrait_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -450,7 +441,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1758326400000" data-listing-file-modified-sort="1795796278331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
+<div class="quarto-post image-right" data-index="5" data-categories="ZnJ1aXRhJTJDZmx1bWUlMjBjYW55b24lMkNGMQ==" data-listing-date-sort="1758326400000" data-listing-file-modified-sort="1795806555054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
 <div class="thumbnail"><a href="./poems/guardian-of-the-flume.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/f1_guardian_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -480,7 +471,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="ZnJ1aXRhJTJDa29kZWwncyUyMGNhbnlvbiUyQ0sx" data-listing-date-sort="1776124800000" data-listing-file-modified-sort="1795796278331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
+<div class="quarto-post image-right" data-index="6" data-categories="ZnJ1aXRhJTJDa29kZWwncyUyMGNhbnlvbiUyQ0sx" data-listing-date-sort="1776124800000" data-listing-file-modified-sort="1795806555054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
 <div class="thumbnail"><a href="./poems/dragon.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/k1_dragon_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -510,7 +501,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="ZnJ1aXRhJTJDa29kZWwncyUyMGNhbnlvbiUyQ0sxMg==" data-listing-date-sort="1763856000000" data-listing-file-modified-sort="1795796278352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
+<div class="quarto-post image-right" data-index="7" data-categories="ZnJ1aXRhJTJDa29kZWwncyUyMGNhbnlvbiUyQ0sxMg==" data-listing-date-sort="1763856000000" data-listing-file-modified-sort="1795806555074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
 <div class="thumbnail"><a href="./poems/timeless-lookout.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/k12_eyes_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -540,7 +531,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="ZnJ1aXRhJTJDbmF0aW9uYWwlMjBtb251bWVudCUyQ21vbnVtZW50JTIwY2FueW9u" data-listing-date-sort="1760832000000" data-listing-file-modified-sort="1795796278331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="297">
+<div class="quarto-post image-right" data-index="8" data-categories="ZnJ1aXRhJTJDbmF0aW9uYWwlMjBtb251bWVudCUyQ21vbnVtZW50JTIwY2FueW9u" data-listing-date-sort="1760832000000" data-listing-file-modified-sort="1795806555054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="297">
 <div class="thumbnail"><a href="./poems/elephant-seal.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/monument_seal_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -570,7 +561,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="ZnJ1aXRhJTJDcG9sbG9jayUyMGNhbnlvbiUyQ1Ax" data-listing-date-sort="1791417600000" data-listing-file-modified-sort="1795796278352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
+<div class="quarto-post image-right" data-index="9" data-categories="ZnJ1aXRhJTJDcG9sbG9jayUyMGNhbnlvbiUyQ1Ax" data-listing-date-sort="1791417600000" data-listing-file-modified-sort="1795806555074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
 <div class="thumbnail"><a href="./poems/pollocks-backside.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/p1_backside_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -600,7 +591,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1795796278331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
+<div class="quarto-post image-right" data-index="10" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1795806555054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="314">
 <div class="thumbnail"><a href="./poems/eagle.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/r1_eagle_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -630,7 +621,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1795796278352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+<div class="quarto-post image-right" data-index="11" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1795806555074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
 <div class="thumbnail"><a href="./poems/kissy-face.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/r1_kiss_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -660,7 +651,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1795796278352" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
+<div class="quarto-post image-right" data-index="12" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774396800000" data-listing-file-modified-sort="1795806555074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
 <div class="thumbnail"><a href="./poems/snail.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/r1_snail_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -690,7 +681,7 @@ Rudy
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1795796278331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
+<div class="quarto-post image-right" data-index="13" data-categories="ZnJ1aXRhJTJDcmF0dGxlc25ha2UlMjBhcmNoZXMlMkNSMQ==" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1795806555054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
 <div class="thumbnail"><a href="./poems/cobra.html" class="no-external-icon">
 
 <img loading="lazy" src="./poems/images/r1_cobra_thumb.jpg" class="thumbnail-image" style="height: 150px;">
@@ -723,6 +714,10 @@ Rudy
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+</section>
+<section id="tread-lightly" class="level2">
+<h2 class="anchored" data-anchor-id="tread-lightly">Tread lightly</h2>
+<p>Please remember to always stay on marked trails while you search. The dark, crusty cryptobiotic soil around Fruita is alive, and a single footprint can take decades to heal.</p>
 </section>
 <section id="know-a-rock-that-deserves-a-poem" class="level2">
 <h2 class="anchored" data-anchor-id="know-a-rock-that-deserves-a-poem">Know a rock that deserves a poem?</h2>

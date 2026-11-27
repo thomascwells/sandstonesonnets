@@ -50,7 +50,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3ea1d800871f55dbb394c05fc6e71530.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a0c95920f4634a99c92a506dfc4560d5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,6 +84,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="apple-touch-icon" href="../poems/images/icon-192.png">
 <script src="../pwa/offline.js" defer=""></script>
+<script src="../site.js" defer=""></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -100,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+    <nav class="navbar navbar-expand " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
@@ -111,11 +115,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Sandstone Sonnets</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+          <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
@@ -125,8 +125,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">FAQ</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
 </div>
             <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
@@ -137,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><img src="../poems/images/logo.webp" class="img-fluid" loading="lazy" alt="Sandstone Sonnets logo"></p>
+<p><img src="../poems/images/logo.webp" class="nolightbox img-fluid" loading="lazy" alt="Sandstone Sonnets logo"></p>
 </div></div>
     </div>
 <!-- main -->
@@ -236,7 +235,7 @@ A whale sunk that ship right here!</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&amp;route=39.152328%2C-108.781096%3B39.150329%2C-108.781525#map=18/39.151345/-108.781407&amp;layers=P"><img src="images/f1_shipwreck_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple"></a></p>
+<p><img src="images/f1_shipwreck_map_hint.png" class="img-fluid figure-img" loading="lazy" alt="Trail map of Flume Canyon trail F1 with the section to search highlighted in purple"></p>
 <figcaption>This feature is visible from the F1 trail. It can be found somewhere in the area highlighted in purple above. Click for an interactive map.</figcaption>
 </figure>
 </div>
@@ -257,7 +256,7 @@ A whale sunk that ship right here!</p>
 <div class="callout-body-container callout-body">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/f1_shipwreck_answer.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></p>
+<p><a href="images/f1_shipwreck_answer.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Here’s a blurred version of the location you’re looking for. See anything that looks like this?"><img src="images/f1_shipwreck_answer.jpg" class="img-fluid figure-img" loading="lazy" alt="Blurred photo of the landscape around the hidden feature"></a></p>
 <figcaption>Here’s a blurred version of the location you’re looking for. See anything that looks like this?</figcaption>
 </figure>
 </div>
@@ -272,11 +271,11 @@ A whale sunk that ship right here!</p>
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><a href="images/f1_shipwreck_answer_annotated.jpg"><img src="images/f1_shipwreck_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: two rocks, one like a whale breaching the water and one like a sinking ship, marked on the photo"></a></p>
+<p><a href="images/f1_shipwreck_answer_annotated.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/f1_shipwreck_answer_annotated.jpg" class="img-fluid" loading="lazy" alt="Answer photo: two rocks, one like a whale breaching the water and one like a sinking ship, marked on the photo"></a></p>
 <p>GPS coordinates of this photo: 39.15177, -108.78165</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.openstreetmap.org/?mlat=39.15177&amp;mlon=-108.78165&amp;zoom=19"><img src="images/f1_shipwreck_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></a></p>
+<p><img src="images/f1_shipwreck_map.png" class="img-fluid figure-img" loading="lazy" alt="Map with a pin marking where the answer photo was taken"></p>
 <figcaption>Click for interactive map</figcaption>
 </figure>
 </div>
@@ -288,6 +287,7 @@ A whale sunk that ship right here!</p>
 </div>
 
 
+<div class="poem-tools" data-trail="F1" data-trail-poems="/poems/desert-shipwreck.html /poems/patina-portrait.html /poems/guardian-of-the-flume.html"><button type="button" class="btn found-toggle" aria-pressed="false">I found it!</button><button type="button" class="btn share-poem" hidden="">Share</button><span class="found-count" aria-live="polite"></span></div>
 <nav class="trail-nav" aria-label="More poems on this trail"><span class="trail-nav-prev"></span><a class="trail-nav-all" href="../#category=F1">All F1 poems</a><a class="trail-nav-next" href="patina-portrait.html"><span class="trail-nav-label">Next on F1 →</span><span class="trail-nav-title">Patina Portrait</span></a></nav>
 
 </main> <!-- /main -->
@@ -768,8 +768,40 @@ A whale sunk that ship right here!</p>
   window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/thomascwells/sandstonesonnets/edit/main/poems/desert-shipwreck.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/thomascwells/sandstonesonnets/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/thomascwells/sandstonesonnets/edit/main/poems/desert-shipwreck.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/thomascwells/sandstonesonnets/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>
