@@ -2,6 +2,10 @@
 title: "FAQ"
 ---
 
+### Who is it for?
+
+Locals and visitors, young and old. Kids are especially good at this, so parents: be prepared to pack your imagination!
+
 ### How do I use this website?
 
 Use the "Trailhead filters" section on the homepage to find a trail near you. Select a trail to explore.  
@@ -14,14 +18,16 @@ Each poem will give you clues about what shape to look for in the rocks. If you'
 
 Once you think you've found the rock formation described in the poem, click the "Answer" tab. It will show you a picture of the formation and a map showing the location where the picture was taken. GPS coordinates of the photo are included in the answer section to help you find the exact location.
 
+Found it? Tap **I found it!** at the bottom of the poem to keep track. Poems you've found get a ✓ on the homepage. Your progress is saved on your phone only.
+
 ### Can I use this website without cell service? {#offline}
 
 Yes! Open the website once while you have signal (at home on Wi-Fi is best), and your phone will save every poem, hint and answer. When it's done, you'll see "✓ Saved for offline use" at the bottom of the page. After that, the site works on the trail with no signal. Only the "Click for interactive map" links need a connection.
 
-For quick access, you can also add Sandstone Sonnets to your home screen so it opens like an app:
+For quick access, you can also add Sandstone Sonnets to your home screen so it opens like an app. Tap the **Install app** (or **Add to Home Screen**) button on the homepage, or:
 
-- **iPhone:** in Safari, tap the Share button, then **Add to Home Screen**.
-- **Android:** in Chrome, tap the ⋮ menu, then **Install app** or **Add to Home screen**.
+- **iPhone:** in Safari, tap the Share button, then Add to Home Screen.
+- **Android:** in Chrome, tap the ⋮ menu, then Install app or Add to Home screen.
 
 New poems are saved automatically the next time you open the site with signal.
 

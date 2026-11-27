@@ -9,6 +9,8 @@ project:
     - "poems/images/share.jpg"
     - "pwa/offline.js"
     - "poems/images/icon-*.png"
+    - "fonts/**"
+    - "site.js"
 
   # Makes the site installable and usable offline (see pwa/build_offline.py)
   post-render: pwa/build_offline.py
@@ -29,6 +31,7 @@ website:
   bread-crumbs: true
   navbar:
     pinned: false
+    collapse: false # show Home and FAQ on phones instead of a ☰ menu
     logo: "/poems/images/logo.webp"
     logo-alt: "Sandstone Sonnets logo"
     left:
@@ -47,22 +50,23 @@ website:
     #   - icon: rss
     #     href: index.xml
   margin-header: |
-    ![](/poems/images/logo.webp){fig-alt="Sandstone Sonnets logo"}
+    ![](/poems/images/logo.webp){fig-alt="Sandstone Sonnets logo" .nolightbox}
       
 format:
   html:
     theme: 
       - lumen
-      # - html/styles.scss
+      - theme.scss
 #    grid: 
 #      body-width: 900px
     toc: false
 #    highlight-style: monokai
     css: styles.css
+    lightbox: auto # tap a photo to zoom it
     include-in-header: pwa/head.html
 
 filters:
-  - lazy-images.lua
+  - images.lua
   - trail-nav.lua
 
   

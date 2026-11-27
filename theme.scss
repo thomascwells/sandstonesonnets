@@ -1,0 +1,44 @@
+/*-- scss:defaults --*/
+
+// A slightly darker blue than Lumen's #158cba, so links, trail buttons and
+// the navbar text are easy to read (4.5:1 contrast or better), even in sun.
+$primary: #0f76a0;
+$navbar-fg: #fff;
+
+// Use the copy of the font in /fonts instead of downloading it from Google
+// Fonts. It loads faster, makes no third-party request, and works offline.
+$web-font-path: false;
+
+/*-- scss:rules --*/
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/source-sans-pro-latin-300-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/source-sans-pro-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/source-sans-pro-latin-400-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/source-sans-pro-latin-700-normal.woff2") format("woff2");
+}

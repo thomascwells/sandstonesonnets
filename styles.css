@@ -78,7 +78,7 @@
   margin-left: 0.5rem;
   padding: 0.1rem 0.5rem;
   border-radius: 999px;
-  background: #c8602f;
+  background: #b4532a; /* dark enough for white text */
   color: #fff;
   font-size: 0.7rem;
   font-weight: 600;
@@ -179,4 +179,97 @@
   font-size: 0.8rem;
   color: var(--bs-secondary-color);
   text-align: center;
+}
+
+/* "Found" badge on poems you've found (added by site.js) */
+.found-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: #2e7d32;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+/* "I found it!" and "Share" buttons at the bottom of each poem */
+.poem-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 2rem;
+}
+
+.poem-tools .btn,
+.install-app-button {
+  border: 1px solid var(--bs-primary);
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  color: var(--bs-primary);
+  background: transparent;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.poem-tools .btn:hover,
+.install-app-button:hover {
+  background: var(--bs-primary);
+  color: #fff;
+}
+
+.poem-tools .found-toggle[aria-pressed="true"] {
+  border-color: #2e7d32;
+  background: #2e7d32;
+  color: #fff;
+}
+
+.found-count {
+  font-size: 0.9rem;
+  color: var(--bs-secondary-color);
+}
+
+/* "Install app" button (added by pwa/offline.js) */
+.install-app {
+  margin: 0.5rem 0 1rem;
+}
+
+.nav-footer-center .install-app {
+  margin: 0.5rem 0 0;
+  text-align: center;
+}
+
+.install-app-tip {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+}
+
+/* Keep the logo, title, Home and FAQ on one line on small phones */
+@media (max-width: 576px) {
+  .navbar .navbar-brand img {
+    max-height: 36px;
+  }
+  .navbar .nav-link {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+  }
+  .navbar .navbar-title {
+    display: block;
+    white-space: normal;
+    line-height: 1.1;
+    font-size: 1rem;
+  }
+  .navbar .navbar-brand {
+    margin-right: 0.25rem;
+  }
+}
+
+/* Homepage: the description is for search engines and link previews only;
+   the page itself starts with the welcome text. */
+.home #title-block-header .description {
+  display: none;
 }
