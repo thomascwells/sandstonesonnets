@@ -1,6 +1,7 @@
 -- Adds "Previous / All poems on this trail / Next" links to the bottom of
 -- each poem, in hiking order. Order comes from the poem's subtitle, e.g.
 -- "D4 #2" is the 2nd feature on trail D4. Drafts are skipped.
+-- Also adds the "I found it!" and "Share" buttons above those links.
 
 local function read_front_matter(path)
   local f = io.open(path, "r")
@@ -80,6 +81,20 @@ function Pandoc(doc)
         .. '<span class="trail-nav-title">%s</span></a>',
       class, s.href, label, escape(s.title))
   end
+
+  -- "I found it!" and "Share" buttons (they work in site.js). The list of
+  -- poems on this trail lets site.js show "2 of 4 D4 poems found".
+  local hrefs = {}
+  for _, s in ipairs(stops) do table.insert(hrefs, "/poems/" .. s.href) end
+  local tools = string.format(
+    '<div class="poem-tools" data-trail="%s" data-trail-poems="%s">'
+      .. '<button type="button" class="btn found-toggle" aria-pressed="false">'
+      .. 'I found it!</button>'
+      .. '<button type="button" class="btn share-poem" hidden>Share</button>'
+      .. '<span class="found-count" aria-live="polite"></span>'
+      .. '</div>',
+    escape(trail), escape(table.concat(hrefs, " ")))
+  doc.blocks:insert(pandoc.RawBlock("html", tools))
 
   local html = '<nav class="trail-nav" aria-label="More poems on this trail">'
     .. link(prev, "trail-nav-prev", "&larr; Previous on " .. escape(trail))

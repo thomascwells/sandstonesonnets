@@ -88,3 +88,10 @@ The site works offline and can be installed on a phone's home screen. Nothing ne
 - The app name and description come from `website.title` and `website.description` in `_quarto.yml`; the colour comes from the theme.
 - App icons, the navbar logo, favicon and link-preview image are all made from `brand/logo_master.png` by `scripts/optimize_images.py`.
 - While running `quarto preview`, offline mode is switched off so you always see fresh pages. To test it locally, open any page with `?offline-test` added to the address (and `?offline-test=off` to switch it off again), then turn off the network in the browser's developer tools.
+
+# Look and extras
+
+- **Colours and font:** `theme.scss` sets the site's blue (dark enough to read easily) and loads the Source Sans Pro font from the `fonts/` folder instead of from Google, so it also works offline.
+- **Photos:** tapping a photo opens it in a zoomable viewer (`lightbox: auto` in `_quarto.yml`). Images that link somewhere else, like the maps, keep their links. To stop a particular image from zooming, add `.nolightbox` to it, e.g. `![](image.jpg){.nolightbox}`.
+- **"I found it!" and "Share" buttons:** added to the bottom of every poem by `trail-nav.lua` and run by `site.js`. Nothing to update by hand: the "2 of 4 D4 poems found" count uses the same poem list as the previous and next links. Found poems are saved only in each visitor's browser.
+- **"Install app" button:** shown on the homepage (where the empty `#install-app` section is) by `pwa/offline.js`. Android shows the browser's install prompt; on iPhone the button shows the Share → Add to Home Screen steps.
