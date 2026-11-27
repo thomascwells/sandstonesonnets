@@ -1,5 +1,6 @@
 ---
 title: "FAQ"
+collapse-sections: true # each question opens when tapped (collapsible-sections.lua)
 ---
 
 ### How do I use this website?
