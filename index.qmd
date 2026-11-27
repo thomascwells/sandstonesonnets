@@ -1,6 +1,7 @@
 ---
 title: "Sandstone Sonnets"
 description: "Short, fun poems about rock formations on the trails around Fruita, Colorado. A scavenger hunt for hikers."
+image: "poems/images/share.jpg" # link-preview image (otherwise the first poem's map)
 body-classes: home # hides the description on the page (see styles.css); search engines still use it
 listing:
   id: poem-list
@@ -51,7 +52,10 @@ function markActiveTrail() {
   var current = decodeURIComponent(location.hash || "");
   document.querySelectorAll(".trail-picker a").forEach(function (a) {
     var hash = decodeURIComponent(new URL(a.href).hash);
-    a.classList.toggle("active", hash === current);
+    var active = hash === current;
+    a.classList.toggle("active", active);
+    if (active) a.setAttribute("aria-current", "true");
+    else a.removeAttribute("aria-current");
   });
 }
 window.addEventListener("hashchange", markActiveTrail);

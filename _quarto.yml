@@ -12,8 +12,11 @@ project:
     - "fonts/**"
     - "site.js"
 
-  # Makes the site installable and usable offline (see pwa/build_offline.py)
-  post-render: pwa/build_offline.py
+  # After each render: make the site installable and usable offline
+  # (pwa/build_offline.py), and tidy the homepage address in sitemap.xml
+  post-render:
+    - pwa/build_offline.py
+    - scripts/tidy_sitemap.py
 
 freeze: auto
 
@@ -33,7 +36,7 @@ website:
     pinned: false
     collapse: false # show Home and FAQ on phones instead of a ☰ menu
     logo: "/poems/images/logo.webp"
-    logo-alt: "Sandstone Sonnets logo"
+    logo-alt: "" # decorative: the site name is right beside it
     left:
       - href: index.qmd
         text: Home
@@ -50,7 +53,7 @@ website:
     #   - icon: rss
     #     href: index.xml
   margin-header: |
-    ![](/poems/images/logo.webp){fig-alt="Sandstone Sonnets logo" .nolightbox}
+    ![](/poems/images/logo.webp){fig-alt="" .nolightbox}
       
 format:
   html:
@@ -63,6 +66,7 @@ format:
 #    highlight-style: monokai
     css: styles.css
     lightbox: auto # tap a photo to zoom it
+    canonical-url: true # tells search engines the main address of each page
     include-in-header: pwa/head.html
 
 filters:

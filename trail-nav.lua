@@ -1,7 +1,8 @@
 -- Adds "Previous / All poems on this trail / Next" links to the bottom of
 -- each poem, in hiking order. Order comes from the poem's subtitle, e.g.
 -- "D4 #2" is the 2nd feature on trail D4. Drafts are skipped.
--- Also adds the "I found it!" and "Share" buttons above those links.
+-- Also adds the "I found it!" and "Share" buttons above those links, and
+-- puts the trail and area in the page's browser-tab / search-result title.
 
 local function read_front_matter(path)
   local f = io.open(path, "r")
@@ -47,6 +48,25 @@ local function category_link(trail, categories)
   return "/#category=" .. cat:gsub(" ", "%%20")
 end
 
+local function title_case(s)
+  return (s:gsub("(%a)([%w']*)", function(first, rest) return first:upper() .. rest end))
+end
+
+-- Browser-tab and search-result title that says where the poem is, e.g.
+-- "The Canyon's Secret Grin · D4, Devil's Canyon, Fruita". Built from the
+-- trail and the categories, so it needs no upkeep. The page heading is unchanged.
+local function place_title(doc, trail, categories)
+  local places = { trail }
+  for i = #categories, 1, -1 do
+    local c = categories[i]
+    if c:lower() ~= trail:lower() then table.insert(places, title_case(c)) end
+  end
+  local title = pandoc.utils.stringify(doc.meta.title or "")
+  if title ~= "" then
+    doc.meta.pagetitle = title .. " · " .. table.concat(places, ", ")
+  end
+end
+
 function Pandoc(doc)
   local input = quarto.doc.input_file
   local dir = pandoc.path.directory(input)
@@ -55,6 +75,7 @@ function Pandoc(doc)
   local me = read_front_matter(input)
   local trail, num = parse_subtitle(me and me.subtitle)
   if not trail then return nil end
+  place_title(doc, trail, me.categories)
 
   local stops = {}
   for _, name in ipairs(pandoc.system.list_directory(dir)) do
