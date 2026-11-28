@@ -11,6 +11,7 @@ project:
     - "poems/images/icon-*.png"
     - "fonts/**"
     - "site.js"
+    - "flyer/*.js"
 
   # After each render: make the site installable and usable offline
   # (pwa/build_offline.py), and tidy the homepage address in sitemap.xml
@@ -73,6 +74,7 @@ filters:
   - images.lua
   - trail-nav.lua
   - collapsible-sections.lua
+  - trail-flyer.lua
 
   
   

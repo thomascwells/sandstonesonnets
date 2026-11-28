@@ -4,66 +4,16 @@
 -- Also adds the "I found it!" and "Share" buttons above those links, and
 -- puts the trail and area in the page's browser-tab / search-result title.
 
-local function read_front_matter(path)
-  local f = io.open(path, "r")
-  if not f then return nil end
-  local text = f:read("*a")
-  f:close()
-  local yaml = text:match("^%-%-%-\r?\n(.-)\r?\n%-%-%-")
-  if not yaml then return nil end
-
-  local fm = { categories = {} }
-  local in_categories = false
-  for line in (yaml .. "\n"):gmatch("(.-)\r?\n") do
-    local key, value = line:match("^([%w%-]+):%s*(.-)%s*$")
-    if key then
-      in_categories = (key == "categories")
-      if not in_categories then
-        fm[key] = value:gsub('^"(.*)"$', "%1"):gsub("^'(.*)'$", "%1")
-      end
-    elseif in_categories then
-      local cat = line:match("^%s+%-%s+(.-)%s*$")
-      if cat then table.insert(fm.categories, cat) end
-    end
-  end
-  return fm
-end
-
-local function parse_subtitle(subtitle)
-  if not subtitle then return nil end
-  local trail, num = subtitle:match("^(.-)%s*#(%d+)%s*$")
-  if trail and trail ~= "" then return trail, tonumber(num) end
-end
-
-local function escape(s)
-  return (s:gsub("&", "&amp;"):gsub("<", "&lt;"):gsub(">", "&gt;"):gsub('"', "&quot;"))
-end
-
-local function category_link(trail, categories)
-  -- Use the poem's own category spelling so the homepage filter matches.
-  local cat = trail
-  for _, c in ipairs(categories) do
-    if c:lower() == trail:lower() then cat = c end
-  end
-  return "/#category=" .. cat:gsub(" ", "%%20")
-end
-
-local function title_case(s)
-  return (s:gsub("(%a)([%w']*)", function(first, rest) return first:upper() .. rest end))
-end
+local poems = dofile(pandoc.path.join({ quarto.project.directory, "poem-data.lua" }))
+local escape = poems.escape
 
 -- Browser-tab and search-result title that says where the poem is, e.g.
 -- "The Canyon's Secret Grin · D4, Devil's Canyon, Fruita". Built from the
 -- trail and the categories, so it needs no upkeep. The page heading is unchanged.
 local function place_title(doc, trail, categories)
-  local places = { trail }
-  for i = #categories, 1, -1 do
-    local c = categories[i]
-    if c:lower() ~= trail:lower() then table.insert(places, title_case(c)) end
-  end
   local title = pandoc.utils.stringify(doc.meta.title or "")
   if title ~= "" then
-    doc.meta.pagetitle = title .. " · " .. table.concat(places, ", ")
+    doc.meta.pagetitle = title .. " · " .. table.concat(poems.places(trail, categories), ", ")
   end
 end
 
@@ -72,23 +22,15 @@ function Pandoc(doc)
   local dir = pandoc.path.directory(input)
   if pandoc.path.filename(dir) ~= "poems" then return nil end
 
-  local me = read_front_matter(input)
-  local trail, num = parse_subtitle(me and me.subtitle)
+  local me = poems.read_front_matter(input)
+  local trail, num = poems.parse_subtitle(me and me.subtitle)
   if not trail then return nil end
   place_title(doc, trail, me.categories)
 
   local stops = {}
-  for _, name in ipairs(pandoc.system.list_directory(dir)) do
-    if name:match("%.qmd$") then
-      local fm = read_front_matter(pandoc.path.join({ dir, name }))
-      local t, n = parse_subtitle(fm and fm.subtitle)
-      if t == trail and fm.draft ~= "true" then
-        table.insert(stops, { n = n, title = fm.title or name,
-                              href = name:gsub("%.qmd$", ".html") })
-      end
-    end
+  for _, p in ipairs(poems.all(dir)) do
+    if p.trail == trail then table.insert(stops, p) end
   end
-  table.sort(stops, function(a, b) return a.n < b.n end)
 
   local prev, next
   for i, s in ipairs(stops) do
@@ -120,7 +62,7 @@ function Pandoc(doc)
   local html = '<nav class="trail-nav" aria-label="More poems on this trail">'
     .. link(prev, "trail-nav-prev", "&larr; Previous on " .. escape(trail))
     .. string.format('<a class="trail-nav-all" href="%s">All %s poems</a>',
-                     category_link(trail, me.categories), escape(trail))
+                     poems.category_link(trail, me.categories), escape(trail))
     .. link(next, "trail-nav-next", "Next on " .. escape(trail) .. " &rarr;")
     .. "</nav>"
 
