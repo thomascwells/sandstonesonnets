@@ -530,6 +530,37 @@
   .flyer-map img {
     max-height: 2.1in;
   }
+  /* Keep each poem, map and header in one piece across page breaks.
+     Firefox ignores "avoid breaking" on grid layouts, so in print each poem
+     row is two side-by-side inline blocks, which browsers never split. */
+  .flyer-poem {
+    display: block;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .flyer-verse,
+  .flyer-hints {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+  }
+  .flyer-hints {
+    margin-left: 3%;
+  }
+  .flyer-header,
+  .flyer-map,
+  .flyer-map img,
+  .flyer-tread,
+  .flyer-intro {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  /* Quarto's page grid can also stop page breaks from working well. */
+  #quarto-content,
+  main.content,
+  .page-columns {
+    display: block !important;
+  }
   .flyer[hidden] {
     display: none;
   }
