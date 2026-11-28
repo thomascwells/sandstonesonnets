@@ -1,0 +1,23 @@
+---
+title: "Printable trail flyers"
+description: "Print a one-trail Sandstone Sonnets flyer to share."
+trail-flyer: true # the flyers are built from the poems by trail-flyer.lua
+search: false
+page-layout: full
+include-in-header:
+  - text: '<meta name="robots" content="noindex">'
+---
+
+::: {.flyer-instructions}
+Pick a trail, then tap **Print this flyer** (or choose *Save as PDF* in the print window). Each flyer has that trail's poems with the first two hints, and a QR code that leads to the rest on the website. It prints on letter paper; double-sided works well.
+:::
+
+::: {.flyer-intro}
+**How to play:** each poem describes a rock formation along this trail, numbered in the order you'll reach it. Read a poem, then see if you can find it. Stuck? Try the hints beside it.
+:::
+
+::: {#flyers}
+:::
+
+<script src="/flyer/qrcode.js"></script>
+<script src="/flyer/flyer.js"></script>
