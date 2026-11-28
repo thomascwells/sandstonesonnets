@@ -320,3 +320,222 @@
   outline: 3px solid var(--bs-primary);
   outline-offset: 2px;
 }
+
+/* Printable trail flyers (print.qmd, built by trail-flyer.lua) */
+.flyer-picker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.flyer-print {
+  margin-left: auto;
+  border-radius: 999px;
+  background: var(--bs-primary);
+  color: #fff;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.flyer-print:hover {
+  color: #fff;
+  filter: brightness(1.1);
+}
+
+/* On screen, show the flyer as a sheet of paper */
+.flyer {
+  max-width: 8.5in;
+  margin: 0 auto 2rem;
+  padding: 0.5in;
+  background: #fff;
+  color: #222;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.flyer-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 3px solid var(--bs-primary);
+  margin-bottom: 0.8rem;
+}
+
+.flyer-header img {
+  width: 1.1in;
+  height: 1.1in;
+}
+
+.flyer-header p {
+  margin: 0;
+}
+
+.flyer-site {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.flyer-tagline {
+  font-size: 0.95rem;
+}
+
+.flyer-trail {
+  margin-top: 0.3rem !important;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--bs-primary);
+}
+
+.flyer .flyer-intro p {
+  margin-bottom: 0.6rem;
+}
+
+.flyer-poem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  padding: 0.7rem 0;
+  border-top: 1px solid #ccc;
+  break-inside: avoid;
+}
+
+.flyer-poem p {
+  margin-bottom: 0.5rem;
+}
+
+.flyer-poem-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border: 0;
+}
+
+.flyer-poem-title span {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--bs-primary);
+  letter-spacing: 0.04em;
+}
+
+.flyer-hint-label {
+  margin: 0 0 0.15rem !important;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--bs-primary);
+}
+
+.flyer-map {
+  margin: 0;
+}
+
+.flyer-map img {
+  width: 100%;
+  max-height: 2.4in;
+  object-fit: contain;
+  object-position: left top;
+  border: 1px solid #ddd;
+}
+
+.flyer-map figcaption {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.flyer-qr-box {
+  flex: none;
+  width: 1.9in;
+  margin-left: auto;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.25;
+}
+
+.flyer-qr-box p {
+  margin: 0.3rem 0 0;
+}
+
+.flyer-qr {
+  width: 1in;
+  margin: 0 auto;
+}
+
+.flyer-qr svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.flyer-tread {
+  margin-bottom: 0.6rem;
+  font-size: 0.9em;
+}
+
+.flyer-tread p {
+  display: inline;
+}
+
+@media (max-width: 576px) {
+  .flyer {
+    padding: 1rem;
+  }
+  .flyer-poem {
+    grid-template-columns: 1fr;
+  }
+  .flyer-header {
+    flex-wrap: wrap;
+  }
+  .flyer-qr-box {
+    margin: 0 auto;
+  }
+}
+
+@media print {
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+  #quarto-header,
+  .nav-footer,
+  #quarto-margin-sidebar,
+  #title-block-header,
+  .flyer-instructions,
+  .flyer-picker,
+  .offline-status,
+  .install-app,
+  .quarto-alternate-formats {
+    display: none !important;
+  }
+  .flyer {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-size: 10pt;
+    line-height: 1.32;
+  }
+  body.nav-fixed,
+  body {
+    padding-top: 0 !important;
+  }
+  .flyer-poem p {
+    margin-bottom: 0.35rem;
+  }
+  .flyer-map img {
+    max-height: 2.1in;
+  }
+  .flyer[hidden] {
+    display: none;
+  }
+  #quarto-content,
+  main.content {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
